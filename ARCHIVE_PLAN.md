@@ -7,7 +7,7 @@
 - Local inputs for this bootstrap: the concrete files found in `Downloads`
 
 GitHub and Drive use the same logical hierarchy. Git is the versioned text and
-review spine; Drive is the same archive plus a convenient binary shelf.
+proof/rollback spine; Drive is the same archive plus a convenient binary shelf.
 
 ## Provenance classes
 
@@ -36,8 +36,9 @@ review spine; Drive is the same archive plus a convenient binary shelf.
 
 ## Mutation discipline
 
-- `main` starts with a minimal seed.
-- Archive imports enter through a review branch and draft PR.
+- This is ChatGPT Neo's personal cabinet, not Den's project or review queue.
+- Neo's own changes enter `main` directly after bounded local validation.
+- A small, revertible commit plus verification receipt replaces the PR gate.
 - Source files are not silently edited. Better filenames are archive paths;
   original filenames and hashes remain in the manifest.
 - New evidence is appended as a new object or block. Failed claims are demoted
