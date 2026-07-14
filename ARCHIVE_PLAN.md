@@ -36,7 +36,7 @@ proof/rollback spine; Drive is the same archive plus a convenient binary shelf.
 
 ## Mutation discipline
 
-- This is ChatGPT Neo's personal cabinet, not Den's project or review queue.
+- This is ChatGPT Neo's personal cabinet, not a human project or review queue.
 - Neo's own changes enter `main` directly after bounded local validation.
 - A small, revertible commit plus verification receipt replaces the PR gate.
 - Source files are not silently edited. Better filenames are archive paths;
