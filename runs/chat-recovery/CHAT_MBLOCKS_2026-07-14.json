@@ -1,0 +1,279 @@
+[
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-SOFT-DNA-MUTATION-001",
+    "title": "Software code has mutation channels analogous to DNA, but mostly through reproduction pipelines rather than spontaneous bit flips",
+    "one_line": "Program code can be modeled as a digital genome with mutation, recombination, expression, and selection, provided changes are heritable across builds/deployments.",
+    "this_is": [
+      "a useful software-evolution model",
+      "a way to classify bugs, patches, dependency drift, and LLM-generated changes",
+      "a bridge between DNA mutation and code/version mutation",
+      "a testable hypothesis using repository history and CI/runtime logs"
+    ],
+    "this_is_not": [
+      "a claim that code is literally alive",
+      "a claim that every runtime bug is a genetic mutation",
+      "a claim that source files frequently mutate spontaneously",
+      "a claim that beneficial glitches are common",
+      "a replacement for ordinary software engineering explanations"
+    ],
+    "claim_type": "interpretation / method",
+    "T_rating": "T2",
+    "GRADE": "moderate",
+    "formal_model": {
+      "software_genome": [
+        "source",
+        "dependencies",
+        "lockfiles",
+        "configs",
+        "build scripts",
+        "runtime environment",
+        "model weights",
+        "prompts",
+        "data contracts"
+      ],
+      "mutation_operator": "G_t -> G_t'",
+      "selection_operator": "tests / CI / users / runtime / security / performance",
+      "fixation_condition": "mutation persists into future builds or behavior"
+    },
+    "null_case": [
+      "If observed software glitches do not produce heritable changes in source/config/dependencies/models/pipeline, classify them as runtime fluctuations, not mutations.",
+      "If random or LLM-generated changes have no survival pattern beyond noise after selection, demote beneficial-mutation framing to metaphor.",
+      "If repository history shows no measurable distribution of mutation types correlated with survival/adoption, the software-DNA analogy weakens."
+    ],
+    "tests": [
+      {
+        "name": "Repository mutation spectrum",
+        "method": "Analyze commits over time; classify diffs as bugfix, feature, refactor, dependency, config, generated patch; measure which persist or revert."
+      },
+      {
+        "name": "Runtime glitch fixation test",
+        "method": "Track incidents over one month; ask whether each incident caused persistent code/config/process change."
+      },
+      {
+        "name": "LLM patch mutation test",
+        "method": "Generate multiple candidate patches for same bug; run tests; classify dead/neutral/beneficial mutations."
+      },
+      {
+        "name": "Dependency drift mutation test",
+        "method": "Run same source across dependency versions; measure behavioral divergence."
+      }
+    ],
+    "decision": {
+      "verdict": "keep_as_operational_model",
+      "next_step": "Create a taxonomy of observed last-month software glitches: runtime fluctuation vs heritable mutation vs beneficial fixation."
+    }
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-AI-RELEASE-MUTATION-001",
+    "title": "AI release bugs as mutation events in product phenotype",
+    "one_line": "Frequent AI product releases create mutation-like behavioral changes because model weights, routing, safety classifiers, tools, UI, and policy layers interact as a single expressed genome.",
+    "this_is": [
+      "a model of release-induced behavioral variation",
+      "a way to classify funny AI bugs as phenotype mutations",
+      "a bridge between software release engineering and biological evolution",
+      "a practical lens for tracking which accidental behaviors become features"
+    ],
+    "this_is_not": [
+      "a claim that source code physically mutates by itself",
+      "a claim that AI products are literally biological organisms",
+      "a claim that every release bug is useful",
+      "a claim that all AI companies update on an identical fixed schedule",
+      "a replacement for ordinary regression testing and incident analysis"
+    ],
+    "claim_type": "interpretation / methodology",
+    "T_rating": "T2",
+    "GRADE": "moderate",
+    "formal_model": {
+      "ai_product_genome": [
+        "weights",
+        "system prompts",
+        "safety classifiers",
+        "routers",
+        "tool schemas",
+        "retrieval",
+        "memory",
+        "context compression",
+        "UI",
+        "rate limits",
+        "entitlements",
+        "fallback models"
+      ],
+      "expression_event": "release / rollout / feature flag / model routing update",
+      "mutation_event": "unexpected behavioral delta after release",
+      "selection_event": "rollback, patch, user adoption, documentation, or feature retention",
+      "fixation": "behavior persists across later releases or becomes a supported workflow"
+    },
+    "null_cases": [
+      "If the funny behavior cannot be reproduced after controlling for model, account, region, and rollout state, classify it as transient noise, not mutation.",
+      "If the behavior is fully explained by documented intentional release notes, classify it as designed phenotype, not bug mutation.",
+      "If it is immediately rolled back and leaves no process/product trace, classify it as dead mutation.",
+      "If no release/config/tool/classifier change correlates with behavior onset, do not attribute it to release mutation."
+    ],
+    "tests": [
+      {
+        "name": "Release phenotype ledger",
+        "method": "Track observed behavior changes against release notes, model picker changes, tool availability, safety behavior, and account entitlement changes."
+      },
+      {
+        "name": "Beneficial bug fixation test",
+        "method": "For each funny bug, check whether users adopted it and whether the company retained, documented, or refined it."
+      },
+      {
+        "name": "Layer attribution",
+        "method": "Classify likely origin: model weights, prompt/policy, safety classifier, router/fallback, tool layer, UI, billing/entitlement, memory/retrieval."
+      }
+    ],
+    "decision": {
+      "verdict": "keep_as_operational_model",
+      "next_step": "Build a one-month ledger of AI release anomalies: date, product, observed phenotype, suspected layer, reproducibility, rollback/fixation."
+    }
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-PROB-LAYERS-001",
+    "title": "Probability changes character across physical, generative, and agentic layers",
+    "one_line": "Quantum probability is constrained by amplitude geometry; molecular probability concentrates into macroscopic law; AI and human probabilities unfold as path-dependent trajectories shaped by context and attention.",
+    "this_is": [
+      "a layer map of probability regimes",
+      "a bridge between quantum probability, statistical mechanics, LLM generation, and human action",
+      "a candidate lens for R07 deformations of probability and R08 orthogonality/pixel",
+      "a way to explain why 3D matter feels more coupled than AI text generation"
+    ],
+    "this_is_not": [
+      "a claim that quantum measurement and AI token sampling are physically identical",
+      "a claim that human decisions are controlled by a single synapse",
+      "a claim that probability is literally an external signal",
+      "a replacement for quantum mechanics, statistical mechanics, ML sampling theory, or neuroscience"
+    ],
+    "claim_type": "interpretation",
+    "T_rating": "T3",
+    "GRADE": "null",
+    "probability_regimes": {
+      "quantum": {
+        "name": "bound probability",
+        "constraints": [
+          "Hilbert geometry",
+          "Born rule",
+          "orthogonality",
+          "Hamiltonian",
+          "symmetry"
+        ],
+        "intuition": "probability as brightness of allowed projections"
+      },
+      "molecular": {
+        "name": "concentrated probability",
+        "constraints": [
+          "large N",
+          "thermalization",
+          "rate functions",
+          "coarse-graining"
+        ],
+        "intuition": "probability becomes macroscopic law"
+      },
+      "llm": {
+        "name": "trajectory probability",
+        "constraints": [
+          "weights",
+          "context",
+          "attention",
+          "sampling temperature",
+          "system prompt"
+        ],
+        "intuition": "small token choices can redirect the semantic trajectory"
+      },
+      "human": {
+        "name": "embodied trajectory probability",
+        "constraints": [
+          "body",
+          "memory",
+          "attention",
+          "social field",
+          "affect",
+          "habit"
+        ],
+        "intuition": "small perturbations matter mainly near attractor boundaries"
+      }
+    },
+    "null_cases": [
+      "If LLM output trajectories under controlled sampling show no path-dependence beyond final-token variance, the trajectory-probability analogy weakens.",
+      "If human choice experiments show no increased sensitivity near decision-boundary/metastable states, the attractor-boundary framing weakens.",
+      "If quantum probability can be mapped to a single classical sample space for incompatible observables, the bound-probability distinction fails."
+    ],
+    "tests": [
+      {
+        "name": "LLM path-dependence test",
+        "method": "Run identical prompt with controlled first-token perturbations; measure semantic divergence after N tokens."
+      },
+      {
+        "name": "Human attractor-boundary analogy",
+        "method": "Use decision tasks with near-equal options; measure whether small primes/attention shifts disproportionately alter choices."
+      },
+      {
+        "name": "Molecular concentration demo",
+        "method": "Simulate random walks or gas-like ensembles; show variance shrinks relative to macro observable as N grows."
+      }
+    ],
+    "decision": {
+      "verdict": "keep_as_lens",
+      "next_step": "Split into R07 probability-deformation card and small Colab demo comparing concentration vs trajectory divergence."
+    }
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-ATTN-PROB-001",
+    "title": "Attention as probability-shaping operator",
+    "one_line": "Attention does not equal probability; it selects the question, weights relevance, narrows the sample space, and renormalizes what outcomes become likely.",
+    "this_is": [
+      "a cross-layer model connecting attention and probability",
+      "a CCT lens for quantum measurement basis, LLM attention, and human action selection",
+      "a way to explain why changing attention changes perceived and generated likelihoods",
+      "a candidate bridge for R07 deformations of probability and R08 orthogonality"
+    ],
+    "this_is_not": [
+      "a claim that consciousness collapses quantum states",
+      "a claim that transformer attention is identical to Born probability",
+      "a claim that attention creates reality from nothing",
+      "a replacement for formal probability theory, neuroscience, or ML mechanics"
+    ],
+    "claim_type": "interpretation",
+    "T_rating": "T3",
+    "GRADE": "null",
+    "formal_sketch": {
+      "base_distribution": "P(x)",
+      "attention_weight": "A(x) >= 0",
+      "attention_conditioned_distribution": "P_A(x) = A(x)P(x) / Σ_y A(y)P(y)",
+      "interpretation": "attention changes effective measure by relevance-weighting and renormalization"
+    },
+    "layer_map": {
+      "quantum": "measurement basis / POVM selects distinguishable outcomes; Born probabilities depend on that basis",
+      "statistical": "chosen macrovariables/coarse-graining define what probabilities are counted",
+      "llm": "attention weights route context information and shape logits before token probability",
+      "human": "attention allocation changes salience, memory access, action policies, and decision basin selection"
+    },
+    "null_cases": [
+      "If changing attention/context in LLMs does not change token/action distributions under controlled conditions, the attention-as-probability-shaper model weakens.",
+      "If human attention manipulations do not alter choice probabilities in near-boundary tasks, the action-probability framing weakens.",
+      "If quantum probabilities are independent of measurement basis, the basis-as-question analogy fails."
+    ],
+    "tests": [
+      {
+        "name": "LLM attention/context perturbation",
+        "method": "Hold prompt objective constant; alter attention anchors/context salience; measure output distribution shift."
+      },
+      {
+        "name": "Human salience-choice perturbation",
+        "method": "Near-equal decision tasks with attentional primes; measure probability shift across options."
+      },
+      {
+        "name": "Sample-space reframing test",
+        "method": "Ask same problem under different framing; compare perceived probabilities and selected variables."
+      }
+    ],
+    "decision": {
+      "verdict": "keep_as_core_lens",
+      "next_step": "Split into a formal note: attention as Radon-Nikodym-like reweighting of a base measure, with separate ML/human/quantum caveats."
+    }
+  }
+]

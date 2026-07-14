@@ -1,0 +1,199 @@
+[
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-018",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · diffraction-like vs literal diffraction ontology",
+    "one_line": "The sine-kernel / sinc² visual analogy must not be promoted into literal diffraction ontology without independent physical mechanism.",
+    "this_is": [
+      "an overclaim guard"
+    ],
+    "this_is_not": [
+      "not a rejection of the mathematical sine-kernel claim",
+      "not a rejection of visual analogy"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-003"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [
+      "M-RUN-0002-002"
+    ],
+    "status": "quarantine",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "demote_language",
+      "reason": "Use “diffraction-like kernel visualization,” not “literal diffraction.”",
+      "next_step": "Enforce in all downstream text."
+    },
+    "next_step_idea": "Add this as a required wording rule in MATH_R14_A.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-019",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · probability as accounting vs theorem",
+    "one_line": "“Probability is brightness/accounting” is an interpretation; theorems like Gleason constrain measures but do not by themselves prove R14 ontology.",
+    "this_is": [
+      "a claim-strength correction"
+    ],
+    "this_is_not": [
+      "not a rejection of Born/Gleason anchors",
+      "not a rejection of probability-as-geometry lens"
+    ],
+    "linked_R": [
+      "R07",
+      "R08",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [
+      "M-RUN-0002-014"
+    ],
+    "status": "quarantine",
+    "claim_type": "interpretation",
+    "T_rating": "T4",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "keep_as_lens_only",
+      "reason": "Treat as CCT interpretation until math says more.",
+      "next_step": "Ask future pass to separate Born-rule theorem, Gleason theorem, and R14 metaphor."
+    },
+    "next_step_idea": "Do not let this sentence appear in abstract/paper.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-020",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · source recovery is ill-posed",
+    "one_line": "R14 must not aim to recover the hidden source/origin; at most it can recover equivalence classes and projection invariants.",
+    "this_is": [
+      "a methodological guardrail"
+    ],
+    "this_is_not": [
+      "not a claim that inverse problems are always impossible",
+      "not a reason to stop computing invariants"
+    ],
+    "linked_R": [
+      "R02",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "promoted",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "promote_to_rule",
+      "reason": "This prevents R14 from becoming a universal solvent.",
+      "next_step": "Use “recover invariants, not source” in next-agent prompt."
+    },
+    "next_step_idea": "Make this the first line of R14 methodology.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-021",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · time as render axis",
+    "one_line": "If using block-universe / spacetime-in-picture framing, the render axis should be scale/RG-depth, not ordinary time.",
+    "this_is": [
+      "a normalization of Phi’s own correction",
+      "a guard against time-axis confusion"
+    ],
+    "this_is_not": [
+      "not proof that RG is fundamental time",
+      "not proof that time is unreal",
+      "not a general replacement for temporal dynamics"
+    ],
+    "linked_R": [
+      "R02",
+      "R06",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "quarantine",
+    "claim_type": "interpretation",
+    "T_rating": "T4",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "keep_carefully",
+      "reason": "Useful as hypothesis wording, not as theorem.",
+      "next_step": "If used, state “scale-like render axis in this analogy.”"
+    },
+    "next_step_idea": "Route to R02/R06 later, not first compute.",
+    "notes": []
+  }
+]

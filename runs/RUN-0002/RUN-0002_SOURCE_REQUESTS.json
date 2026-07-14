@@ -1,0 +1,52 @@
+{
+  "schema": "ompu.source_requests.v0.1",
+  "run_id": "RUN-0002",
+  "created_at": "2026-07-07",
+  "created_by": "Neo",
+  "priority_rule": "Fetch P0 first. Do not widen until R14-A source audit is complete.",
+  "requests": [
+    {
+      "request_id": "REQ-R14-A-zeros",
+      "priority": "P0",
+      "file_needed": "Riemann zeta zero table or authoritative Odlyzko dataset/sample",
+      "acceptable": "CSV/TXT/PDF source with zeros; even first 100k zeros enough for prototype",
+      "needed_for": [
+        "M-RUN-0002-005"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-A-Montgomery",
+      "priority": "P0",
+      "file_needed": "Montgomery pair correlation primary or rigorous review",
+      "acceptable": "PDF/book scan/excerpt with exact pair correlation formula and hypotheses",
+      "needed_for": [
+        "M-RUN-0002-003",
+        "M-RUN-0002-004"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-C-BerryUpstill",
+      "priority": "P1",
+      "file_needed": "Berry & Upstill catastrophe optics or equivalent caustic classification review",
+      "acceptable": "PDF/book chapter/review",
+      "needed_for": [
+        "M-RUN-0002-009",
+        "M-RUN-0002-011"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-F-SorkinSinha",
+      "priority": "P2",
+      "file_needed": "Sorkin higher-order interference + Sinha triple-slit experimental papers",
+      "acceptable": "primary paper or authoritative review with caveats",
+      "needed_for": [
+        "M-RUN-0002-014",
+        "M-RUN-0002-015"
+      ]
+    }
+  ],
+  "notes": [
+    "Agent citations from the Phi/Fable5 pass are treated as unverified until primary sources are opened.",
+    "If a requested source is unavailable, bring a rigorous review or textbook excerpt with exact theorem/conjecture statements."
+  ]
+}

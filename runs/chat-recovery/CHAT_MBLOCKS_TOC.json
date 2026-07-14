@@ -1,0 +1,32 @@
+{
+  "schema": "ompu.chat-mblocks.toc.v0.1",
+  "date": "2026-07-14",
+  "source": "current ChatGPT conversation",
+  "count": 4,
+  "blocks": [
+    {
+      "block_id": "M-SOFT-DNA-MUTATION-001",
+      "title": "Software code has mutation channels analogous to DNA, but mostly through reproduction pipelines rather than spontaneous bit flips",
+      "T_rating": "T2",
+      "GRADE": "moderate"
+    },
+    {
+      "block_id": "M-AI-RELEASE-MUTATION-001",
+      "title": "AI release bugs as mutation events in product phenotype",
+      "T_rating": "T2",
+      "GRADE": "moderate"
+    },
+    {
+      "block_id": "M-PROB-LAYERS-001",
+      "title": "Probability changes character across physical, generative, and agentic layers",
+      "T_rating": "T3",
+      "GRADE": "null"
+    },
+    {
+      "block_id": "M-ATTN-PROB-001",
+      "title": "Attention as probability-shaping operator",
+      "T_rating": "T3",
+      "GRADE": "null"
+    }
+  ]
+}

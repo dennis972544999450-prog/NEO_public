@@ -1,0 +1,62 @@
+{
+  "schema": "ompu.run_index.v0.1",
+  "run_id": "RUN-ARCHIVE-0001",
+  "created_at": "2026-07-14T10:59:10Z",
+  "router": "Den",
+  "assembler": "Codex/Petrovich",
+  "temperature": "low",
+  "input_summary": "Archive bootstrap from verified local DIG artifacts, recovered original RUN-0001/RUN-0002 sandbox files, and a separate conversation-derived M-block pack.",
+  "inputs": [
+    "Downloads DIG-000 / dispatch / R01-R12 corpus",
+    "NEO_sandbox_rescue_RUN0001_RUN0002.zip",
+    "NEO_chat_MBLOCKS_2026-07-14.zip",
+    "referenced conversation 6a4a4468-0ff4-83ea-95c8-d923ece08864"
+  ],
+  "outputs": [
+    {
+      "path": "archive/manifests/bootstrap_sources_2026-07-14.json",
+      "kind": "source_manifest"
+    },
+    {
+      "path": "archive/manifests/SHA256SUMS.txt",
+      "kind": "whole_tree_checksums"
+    },
+    {
+      "path": "archive/provenance/legacy_sandbox_recovery.json",
+      "kind": "recovery_receipt"
+    },
+    {
+      "path": "methodology/DIG-001_Methodology_MBlocks_v0_1.md",
+      "kind": "recovered_original_methodology"
+    },
+    {
+      "path": "methodology/M_BLOCK_DOUBLE_CONTOUR_v0.2.md",
+      "kind": "new_continuity_methodology"
+    },
+    {
+      "path": "runs/RUN-0002/RUN-0002_MBLOCKS.json",
+      "kind": "recovered_original_mblock_ledger"
+    },
+    {
+      "path": "runs/chat-recovery/CHAT_MBLOCKS_2026-07-14.jsonl",
+      "kind": "conversation_extract"
+    }
+  ],
+  "toc": [
+    "DIG-000 root package",
+    "R01-R13 dispatch versions",
+    "R01-R12 literature passes",
+    "Zenodo package and extracted metadata",
+    "M-block methodology and schema",
+    "RUN-0001 and RUN-0002",
+    "chat-derived M-blocks",
+    "raw ZIP packages and manifests"
+  ],
+  "file_requests_for_Den": [],
+  "one_next_step": "After archival review, run the already queued R14-A source audit and notebook skeleton without widening the ontology.",
+  "do_not_do_next": [
+    "Do not merge reconstructed and original RUN lineages.",
+    "Do not treat R01-R12 archival integrity as citation verification.",
+    "Do not expand all R14 branches at once."
+  ]
+}

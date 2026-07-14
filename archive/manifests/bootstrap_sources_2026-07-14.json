@@ -1,0 +1,268 @@
+{
+  "schema": "neo.archive_manifest.v0.1",
+  "created_at": "2026-07-14T10:59:10Z",
+  "public_repository": "dennis972544999450-prog/NEO_public",
+  "drive_folder_id": "1mZYPSPSESxFjVnZHrjf0RafDPhAWyLzQ",
+  "source_path_policy": "Public manifest uses source aliases and omits absolute Mac paths.",
+  "local_originals": [
+    {
+      "source_alias": "Downloads/01.md",
+      "archive_path": "research/literature_passes/R01_grokking_learning_phase_transitions.md",
+      "bytes": 21121,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "e489a9317e63faa91f7cef932b85c82f2ac6d673847f9e5de05d89ef1acc46d6",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/02.md",
+      "archive_path": "research/literature_passes/R02_rg_universality_sharp_thresholds.md",
+      "bytes": 22467,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "b0e92354f84344a9d456b759859913d978f064255bb32fc57700816ea69b092c",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/03.md",
+      "archive_path": "research/literature_passes/R03_entropy_leaks_between_scales.md",
+      "bytes": 26497,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "e3e45676c42af77e68b744a29b944b32a4f6d2af2d99347bbab5eef3ad989f38",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/04.md",
+      "archive_path": "research/literature_passes/R04_landauer_thermodynamics_of_computation.md",
+      "bytes": 32960,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "39e77fe9fb3cc9d045ad6c27f81c9bc31466b4690ae5d033df881fb10d26c454",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/05.md",
+      "archive_path": "research/literature_passes/R05_moving_floor_oscillators_synchronization.md",
+      "bytes": 29917,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "f84daace10e4e323b1e4b8f84ff89e5f7ee38e586b153418f510f1f166238b13",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/06.md",
+      "archive_path": "research/literature_passes/R06_relational_time_space_as_operators.md",
+      "bytes": 33267,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "e757a4d159f8e99f6f97f0cd6d61320fee89a8b9d4b7db63592272e1dd9fa1c6",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/07.md",
+      "archive_path": "research/literature_passes/R07_deformations_of_probability.md",
+      "bytes": 31255,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "2b759fdd8f920b2785750b9d050de299b6f6924d8c7a077b60a6278df19bb462",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/08.md",
+      "archive_path": "research/literature_passes/R08_orthogonality_and_the_pixel.md",
+      "bytes": 22383,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "84272c9a9682f5b4d539e74a1fdefd97e08909fba5691d240a760da9a64dd7bc",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/09.md",
+      "archive_path": "research/literature_passes/R09_primes_as_a_spectrum.md",
+      "bytes": 29412,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "e4771ee3223c852f343438f7e8ccd757b13b0cc00c7f1e3efe63e656431a4856",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/10.md",
+      "archive_path": "research/literature_passes/R10_incompressibility_borders_of_proof.md",
+      "bytes": 23894,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "c697b3a6cb806728552e741bdf4c1efd9b60715a1b3857961916b2c78f2728b2",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/11.md",
+      "archive_path": "research/literature_passes/R11_coincidences_as_tunnels.md",
+      "bytes": 31515,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "e35f952b4cbab1f4d9b615b358a4f6833cca3d84d33c0a34b217e31d4a7a4096",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/12.md",
+      "archive_path": "research/literature_passes/R12_home_specimen_prior_art_probe.md",
+      "bytes": 25886,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "1253e793946eb0e443c3d4963a0810dc2728003c582d7f67fe4c55c2d6e99678",
+      "provenance": "local_original",
+      "trust": "unverified_agent_research"
+    },
+    {
+      "source_alias": "Downloads/ANOMALY_DIG_RESEARCH_DISPATCH.md",
+      "archive_path": "research/dispatch/ANOMALY_DIG_RESEARCH_DISPATCH_v0.1.md",
+      "bytes": 19339,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "02c055f28c7cb6994ca728a33a51fda9933bea63473a86d9b0e7324aeb80c965",
+      "provenance": "local_original",
+      "trust": "operator_dispatch"
+    },
+    {
+      "source_alias": "Downloads/ANOMALY_DIG_RESEARCH_DISPATCH1md",
+      "archive_path": "research/dispatch/ANOMALY_DIG_RESEARCH_DISPATCH_v0.2.md",
+      "bytes": 24333,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "29f20510e48b6a1a711aaf9ee60145d568c420a2e3e7a7fca0cb1ae441595816",
+      "provenance": "local_original",
+      "trust": "operator_dispatch",
+      "note": "Malformed source filename normalized at archive path; bytes unchanged."
+    },
+    {
+      "source_alias": "Downloads/DIG-000_Digging_Where_It_Glows_v0.1.md",
+      "archive_path": "dig/DIG-000/DIG-000_Digging_Where_It_Glows_v0.1.md",
+      "bytes": 23739,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "9fd8134f355dba77253bc488f76c5bad9388b560a0a140982b1bfce6700bc04a",
+      "provenance": "local_original",
+      "trust": "publication_draft"
+    },
+    {
+      "source_alias": "Downloads/DIG-000_Digging_Where_It_Glows_v0.1.pdf",
+      "archive_path": "dig/DIG-000/DIG-000_Digging_Where_It_Glows_v0.1.pdf",
+      "bytes": 69327,
+      "mime": "application/pdf",
+      "encoding": "binary",
+      "sha256": "830b4a6661b1271b9d33b6dba25cab60aeabbbcca1408015dbbd06f359b19832",
+      "provenance": "local_original",
+      "trust": "publication_draft"
+    },
+    {
+      "source_alias": "Downloads/ZENODO_PACKAGE_DIG-000.md",
+      "archive_path": "publication/zenodo/DIG-000/ZENODO_PACKAGE_DIG-000.md",
+      "bytes": 6494,
+      "mime": "text/plain",
+      "encoding": "utf-8",
+      "sha256": "402ff165b3bf7fefeee25b50c625d147f13031c3dcf5a6c6e585c3d398cc8501",
+      "provenance": "local_original",
+      "trust": "publication_instructions"
+    }
+  ],
+  "recovered_sandbox_originals": [
+    {
+      "archive_path": "methodology/DIG-001_Methodology_MBlocks_v0_1.md",
+      "bytes": 14748,
+      "sha256": "00b4c37a52d21e50afd460c01f9df75f00b4cfbc6b144a834e2145937005b0f4"
+    },
+    {
+      "archive_path": "schemas/MBLOCK_SCHEMA_v0_1.json",
+      "bytes": 3022,
+      "sha256": "9d362a3e1fc34a6fefd798cfd5707ece44adf06b079e536e3c2882b67814437b"
+    },
+    {
+      "archive_path": "runs/RUN-0001/RUN-0001_TOC.json",
+      "bytes": 2775,
+      "sha256": "6dd59ea70fd79946130369bc9631693848461e15766b04946c0f0af5f7743cc0"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_MBLOCKS.json",
+      "bytes": 51940,
+      "sha256": "eafed2d4460d01bfd35adfe9b95e77214e62d83d87dbafd3adedcbf331aad60c"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_SOURCE_REQUESTS.json",
+      "bytes": 1786,
+      "sha256": "eb85d6dd61bd357e8d757c0f04067cff91420a64b18dcb04abe25e72af7c7978"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_COLLISIONS.json",
+      "bytes": 6045,
+      "sha256": "5f37e8ce406345775e09adbf561182bceba3df0d5f47e9166f267ca4e2bf3906"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_COLAB_QUEUE.json",
+      "bytes": 1344,
+      "sha256": "c0412c5512d72d7e339f3df7c842d2a2ce80cd0a7197cec0bcf136b44d7f6c27"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_NEO_LOW_TEMP_PASS.md",
+      "bytes": 3180,
+      "sha256": "613c802b94f2570c217d8118898d9d2f459ca0f199cc512a2f26b8c8554a925f"
+    },
+    {
+      "archive_path": "runs/RUN-0002/RUN-0002_TOC.json",
+      "bytes": 3852,
+      "sha256": "b93bc0709a367f6f5f48596987e443a680d351299ef0c5fd4726813221e7aac7"
+    }
+  ],
+  "conversation_extracts": [
+    {
+      "archive_path": "runs/chat-recovery/CHAT_MBLOCKS_2026-07-14.json",
+      "bytes": 13151,
+      "sha256": "27e05d6db5eb1c8ca39cd44d358099e326446f880e17142ba353b629acf3ef30"
+    },
+    {
+      "archive_path": "runs/chat-recovery/CHAT_MBLOCKS_2026-07-14.jsonl",
+      "bytes": 11360,
+      "sha256": "824fbd5e8b9a1a73039494182ee37f48c6ae60ae8ef93d7bdef3176d223b890b"
+    },
+    {
+      "archive_path": "runs/chat-recovery/CHAT_MBLOCKS_TOC.json",
+      "bytes": 935,
+      "sha256": "073994f68b72b85b71495bb11e55d428f9dd49d063f75e4ec5d5283749d160c2"
+    }
+  ],
+  "raw_packages": [
+    {
+      "source_alias": "Downloads/NEO_sandbox_rescue_RUN0001_RUN0002.zip",
+      "archive_path": "archive/raw_packages/NEO_sandbox_rescue_RUN0001_RUN0002.zip",
+      "bytes": 27568,
+      "mime": "application/zip",
+      "sha256": "5a64b7bdea6fb90d796882560a20474efe7ff328f3bd34cf50d6002c32333612"
+    },
+    {
+      "source_alias": "Downloads/NEO_chat_MBLOCKS_2026-07-14.zip",
+      "archive_path": "archive/raw_packages/NEO_chat_MBLOCKS_2026-07-14.zip",
+      "bytes": 9901,
+      "mime": "application/zip",
+      "sha256": "d2484d2b95333050d0da0540752a7ae20a397788acbbce7506a3f4c736205251"
+    }
+  ],
+  "not_archived_duplicates": [
+    {
+      "source_alias": "Downloads/NEO_sandbox_rescue_RUN0001_RUN0002 (1).zip",
+      "reason": "Byte-identical duplicate of the archived rescue ZIP.",
+      "bytes": 27568,
+      "sha256": "5a64b7bdea6fb90d796882560a20474efe7ff328f3bd34cf50d6002c32333612"
+    }
+  ]
+}

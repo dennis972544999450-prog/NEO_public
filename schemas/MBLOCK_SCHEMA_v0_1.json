@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ompu.example/schemas/mblock.v0.1.json",
+  "title": "OMPU Anomaly Dig M-Block v0.1",
+  "type": "object",
+  "required": [
+    "schema",
+    "block_id",
+    "run_id",
+    "created_at",
+    "created_by",
+    "block_kind",
+    "title",
+    "one_line",
+    "this_is",
+    "this_is_not",
+    "status",
+    "decision"
+  ],
+  "properties": {
+    "schema": {"const": "ompu.mblock.v0.1"},
+    "block_id": {"type": "string", "pattern": "^M-RUN-[0-9]{4}-[0-9]{3}$"},
+    "run_id": {"type": "string", "pattern": "^RUN-[0-9]{4}$"},
+    "created_at": {"type": "string"},
+    "created_by": {"type": "string"},
+    "source_agent": {"type": "string"},
+    "route_status": {"type": "string"},
+    "block_kind": {
+      "type": "string",
+      "enum": [
+        "claim",
+        "source",
+        "evidence",
+        "math",
+        "null_case",
+        "test",
+        "colab",
+        "finding",
+        "collision",
+        "request",
+        "verdict",
+        "index",
+        "protocol"
+      ]
+    },
+    "title": {"type": "string"},
+    "one_line": {"type": "string"},
+    "this_is": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "this_is_not": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "linked_R": {"type": "array", "items": {"type": "string"}},
+    "linked_DIG": {"type": "array", "items": {"type": "string"}},
+    "parents": {"type": "array", "items": {"type": "string"}},
+    "children": {"type": "array", "items": {"type": "string"}},
+    "dependencies": {"type": "array", "items": {"type": "string"}},
+    "contradictions": {"type": "array", "items": {"type": "string"}},
+    "status": {
+      "type": "string",
+      "enum": [
+        "spark",
+        "quarantine",
+        "source_audit",
+        "math_skeleton",
+        "runnable",
+        "run_done",
+        "survived",
+        "demoted",
+        "dead",
+        "frozen",
+        "promoted",
+        "inbox",
+        "requested",
+        "pending"
+      ]
+    },
+    "claim_type": {
+      "type": ["string", "null"],
+      "enum": ["theorem", "conjecture", "empirical", "interpretation", "method", "metaphor", "protocol", "request", null]
+    },
+    "T_rating": {"type": ["string", "null"], "enum": ["T1", "T2", "T3", "T4", "T5", null]},
+    "GRADE": {"type": ["string", "null"], "enum": ["high", "moderate", "low", "unknown", null]},
+    "math_status": {"type": "string"},
+    "source_status": {"type": "string"},
+    "primary_sources_needed": {"type": "array"},
+    "evidence": {"type": "array"},
+    "null_cases": {"type": "array"},
+    "tests": {"type": "array"},
+    "colab_spec": {"type": ["object", "null"]},
+    "requested_files": {"type": "array"},
+    "decision": {
+      "type": "object",
+      "required": ["verdict", "reason", "next_step"],
+      "properties": {
+        "verdict": {"type": "string"},
+        "reason": {"type": "string"},
+        "next_step": {"type": "string"}
+      }
+    },
+    "notes": {"type": "array"}
+  }
+}

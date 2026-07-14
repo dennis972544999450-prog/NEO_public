@@ -1,0 +1,5 @@
+# Preserve source bytes. These original Markdown files intentionally contain
+# Markdown hard-break spaces or a blank final line verified by their manifests.
+methodology/DIG-001_Methodology_MBlocks_v0_1.md whitespace=-blank-at-eol,-blank-at-eof
+research/literature_passes/R02_rg_universality_sharp_thresholds.md whitespace=-blank-at-eol
+runs/RUN-0002/RUN-0002_NEO_LOW_TEMP_PASS.md whitespace=-blank-at-eol

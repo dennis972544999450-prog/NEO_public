@@ -1,0 +1,43 @@
+{
+  "schema": "ompu.colab_queue.v0.1",
+  "run_id": "RUN-0002",
+  "created_at": "2026-07-07",
+  "created_by": "Neo",
+  "temperature": "low / validator",
+  "queue": [
+    {
+      "rank": 1,
+      "block_id": "M-RUN-0002-005",
+      "notebook": "R14_A_zeta_sine_kernel.ipynb",
+      "why_first": "Cheapest route to math + compute; directly tied to R09; data-driven; easy to demote overclaim.",
+      "blocked_by": [
+        "REQ-R14-A-zeros",
+        "REQ-R14-A-Montgomery"
+      ],
+      "null_case_block": "M-RUN-0002-004"
+    },
+    {
+      "rank": 2,
+      "block_id": "M-RUN-0002-011",
+      "notebook": "R14_C_caustic_alphabet.ipynb",
+      "why_second": "Visual, theorem-adjacent, cross-scale; needs precise classification hypotheses.",
+      "blocked_by": [
+        "REQ-R14-C-BerryUpstill"
+      ],
+      "null_case_block": "M-RUN-0002-010"
+    },
+    {
+      "rank": 3,
+      "block_id": "M-RUN-0002-017",
+      "notebook": "R14_D_coarse_grain_irreversibility.ipynb",
+      "why_third": "Useful discipline/control notebook; can run with toy data but less source-critical.",
+      "blocked_by": [],
+      "null_case_block": "M-RUN-0002-016"
+    }
+  ],
+  "do_not_run_yet": [
+    "R14-B explicit formula until theorem skeleton is clear",
+    "R14-F Sorkin until source/caveat audit",
+    "R14-D holography until R03/R06 research pass"
+  ]
+}

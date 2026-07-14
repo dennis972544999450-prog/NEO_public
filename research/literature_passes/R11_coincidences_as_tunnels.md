@@ -1,0 +1,156 @@
+# R11: "Coincidences as Tunnels" — Dig-Site Literature Pass (OMPU / The Anomaly Dig)
+
+## TL;DR
+- **Moonshine and the Viazovska sphere-packing program are the two cleanest modern examples of numerical "coincidences" that proved load-bearing** — both are now anchored by proven theorems (umbral moonshine proved 2015; E8/Leech optimality proved 2016, universal optimality published 2022), with a live frontier of conjecture-status echoes still around each.
+- **No one maintains a systematic public catalogue** sorting "coincidences that resolved into structure" from "debunked numerology." The closest things are folklore plus one rigorous philosophical criterion (Lange 2010: a coincidence is a combination of facts with *no unified explanation*) and Guy's "Strong Law of Small Numbers." The working selection criterion that emerges: an echo is load-bearing when it is **exact** (not ~1% approximate), **part of an infinite family** (not a singleton), and **reproducible across genuinely independent structures**.
+- **For single-GPU / Colab-scale work**, the tractable moves are all replication/falsification tasks — computational moonshine coefficient checks, PSLQ/LLL integer-relation hunts, and LP / LP-dual sphere-packing bound computations in intermediate dimensions — not open-problem-slaying.
+
+---
+
+## 1) State of the Art 2023–2026 (primary sources first)
+
+### A. The moonshine landscape — what is theorem, what is conjecture
+
+**Monstrous moonshine (THEOREM).** McKay's 1978 observation that 196884 = 196883 + 1 (first nontrivial *j*-function Fourier coefficient = 1 + smallest nontrivial Monster irrep dimension) was formalized by Conway–Norton (1979, *Bull. LMS*) and **proved by Richard Borcherds, "Monstrous moonshine and monstrous Lie superalgebras," *Inventiones Mathematicae* 109 (1992), 405–444**, using the Frenkel–Lepowsky–Meurman moonshine module V♮. This is the canonical "coincidence that was a tunnel"; Borcherds received the Fields Medal (1998) partly for it. *Status: fully proven theorem. (High confidence.)*
+
+**Mathieu moonshine / M24 (PARTIAL THEOREM + open conjectures).** Eguchi–Ooguri–Tachikawa (2010) observed that the K3 elliptic genus's Fourier coefficients decompose into M24 representation dimensions — the multiplicities came out as positive integers in their initial checks (up to n ≈ 1000). **Terry Gannon ("Much ado about Mathieu," *Advances in Mathematics* 301 (2016), 322–358; arXiv:1211.5531) proved the M24 module exists** — the required non-negative-integer multiplicities form an honest graded representation. Per Gaberdiel–Hohenegger–Volpato, M24-compatibility "was checked up to the first 600 coefficients," which "according to Gannon … is sufficient to prove that all Fourier coefficients of the elliptic genus of K3 are dimensions of M24 representations." *However*, the deeper structural questions remain **open**: there is no known K3 conformal field theory (no analogue of V♮) whose automorphism group realizes M24 acting on this module, and the genus-zero property of monstrous moonshine does not carry over cleanly. *Status: existence proven; a natural module / geometric-physical realization is conjectural/open. (High confidence on both halves.)*
+
+**Umbral moonshine (THEOREM, 2015).** Cheng–Duncan–Harvey ("Umbral Moonshine," *Commun. Number Theory Phys.* 8 (2014), 101–242; arXiv:1204.2779) and ("Umbral Moonshine and the Niemeier Lattices," *Res. Math. Sci.* 1 (2014); arXiv:1307.5793) conjectured a family of 23 cases, one per Niemeier lattice (the even unimodular rank-24 lattices with nontrivial root systems); Mathieu moonshine is the single case attached to the A1²⁴ lattice. **The Umbral Moonshine Conjecture was proved by John F. R. Duncan, Michael J. Griffin, and Ken Ono, "Proof of the Umbral Moonshine Conjecture," arXiv:1503.01472, *Research in the Mathematical Sciences* 2:26 (2015).** Gannon had handled the M24 case; DGO established existence of the umbral modules in the remaining 22 cases. *Status: proven theorem — but the proof is INEFFECTIVE: it proves existence without giving a natural/explicit construction, analogous to Atkin–Fong–Smith for monstrous moonshine before FLM. Connections to K3 geometry/physics remain incomplete. (High confidence.)*
+
+**Conway moonshine (THEOREM).** Duncan & Mack-Crane, "The Moonshine Module for Conway's Group," *Forum of Mathematics, Sigma* 3 (2015), e10 (arXiv:1409.3829), exhibit an action of Co₀ (automorphism group of the Leech lattice) on a distinguished super vertex operator algebra and prove the graded trace functions are normalized principal moduli. *Status: proven theorem, with an explicit VOA construction. (High confidence.)*
+
+**Thompson moonshine (THEOREM).** Harvey–Rayhaun (2015) conjectured moonshine for the sporadic Thompson group Th via weight-½ modular forms. **Proved by Michael J. Griffin and Michael H. Mertens, "A proof of the Thompson Moonshine Conjecture," arXiv:1607.03078, *Research in the Mathematical Sciences* 3:36 (2016)** — existence of an infinite-dimensional graded supermodule for Th. *Status: proven theorem (existence). (High confidence.)*
+
+**O'Nan / pariah moonshine (THEOREM + BSD-CONDITIONAL corollaries).** The six pariah groups (O'Nan, Janko J1, J3, J4, Lyons, Rudvalis) are the sporadic groups not involved in the Monster. Following a 1979 Conway–Norton question, Duncan, Mertens & Ono asked whether pariahs have moonshine: **"Pariah moonshine," *Nature Communications* 8:670 (2017); and "O'Nan moonshine and arithmetic," arXiv:1702.03516, *American Journal of Mathematics* 143 (2021), 1115–1159** (note: often cited as 2019 from the arXiv revision; print year is 2021).
+- *PROVEN (unconditional):* existence of a graded infinite-dimensional module for the O'Nan group whose McKay–Thompson series are weight-3/2 modular forms (Theorem 1.1); congruences relating dim W_D and character values to class numbers −24H(D) mod small primes (Theorem 1.2, p ∈ {2,3,5,7}); and, using Skinner–Urban Iwasawa-main-conjecture work, unconditional Selmer/Sha statements at composite levels N ∈ {14,15} (Theorem 1.4). Rank-zero conclusions are unconditional via Kolyvagin.
+- *CONDITIONAL on Birch–Swinnerton-Dyer:* Theorem 1.3 (primes p = 11, 19) — the statements about p-Selmer groups and Tate–Shafarevich (Ш) divisibility for the relevant quadratic-twist elliptic curves explicitly assume BSD. (Only the Selmer/Ш claims are BSD-conditional; the rank-0 conclusion is not.)
+- Because J1 ⊂ O'N, this shows at least two pariahs "play an active part in some of the deepest open questions in arithmetic." *Status: module existence and class-number congruences are theorems; the sharpest arithmetic corollaries at p=11,19 are BSD-conditional. (High confidence.)*
+
+**Where the pariahs fit:** O'Nan and J1 are now tied to arithmetic (elliptic curves, class numbers, Selmer/Sha). The other four pariahs (J3, J4, Ly, Ru) have **no known moonshine** — genuinely OPEN. *(High confidence this is open.)*
+
+**2021–2026 developments (the arithmetic / penumbral turn):**
+- **Penumbral moonshine.** Duncan, Harvey & Rayhaun, "An Overview of Penumbral Moonshine," arXiv:2109.09756. Thompson moonshine (weight ½) is one case of a broader family — penumbral moonshine — of correspondences between finite groups and vector-valued modular forms.
+- Duncan, Harvey & Rayhaun, "Two New Avatars of Moonshine for the Thompson Group," arXiv:2202.08277 (v2 May 2025), and "Modular Products and Modules for Finite Groups," *Algebras and Representation Theory* 27 (2024), 115–159 (online June 2023) — singular theta lifts translating weight-½ ↔ weight-0 moonshine.
+- **Cheng, Duncan & Mertens, "Class Numbers, Cyclic Simple Groups and Arithmetic," *J. London Math. Soc.* 108 (2023) (arXiv:2204.00775)** — introduces "optimal modules" for finite groups in holomorphic mock Jacobi forms; classifies optimal modules for cyclic groups of prime order (weight 2, index 1), connecting to class numbers and to imaginary quadratic twists of modular curves, and proves obstruction theorems on rational points of Jacobian twists (e.g., for N=19 an explicit twist has only finitely many rational points under stated congruence conditions). *Theorem-based. (High confidence; exact page range varies across listings — verify against the journal.)*
+- **Cheng, Duncan & Mertens, "Class Numbers, Congruent Numbers and Umbral Moonshine," arXiv:2306.16414, *Journal of Number Theory* 277 (Dec 2025), 201–235** — classifies distinguished modules for the smallest Mathieu groups (M11, 2.M12) and derives a consequence for the ancient congruent-number problem: if W is the transitive optimal module for M11 and n is squarefree ≡ 3 mod 24, then n is *not* congruent whenever W₋ₙ contains the 55-dimensional irreducible M11-module with nonzero multiplicity. *Theorem-based. (High confidence.)* A sequel "Class Numbers, Elliptic Curves and the Second Largest Mathieu Group" (M23, N=23) is announced as *in preparation* — **not yet posted; flagged unconfirmed.**
+
+**Physical interpretation (mostly conjectural / heuristic).** Cheng–Duncan–Harvey and collaborators connect umbral/Mathieu moonshine to K3 sigma models (N=(4,4) SCFTs), BPS state counting, and 3d gravity via mock modular forms and Rademacher sums (Duncan–Frenkel, "Rademacher sums, moonshine and gravity," *CNTP* 5 (2011)). Cheng–Harrison ("Umbral Moonshine and K3 Surfaces," arXiv:1406.0619) relate all 23 cases to K3 sigma models. These provide interpretive/physical context, but the full geometric realization (a single CFT realizing the symmetry) remains **conjectural/open** for umbral and Mathieu moonshine. *Flag: I am CITING that these connections exist; the claim that they constitute a complete physical "explanation" is my INFERENCE that it is still open.*
+
+### B. Sphere packing after Viazovska
+
+**Dimension 8 (THEOREM).** Maryna Viazovska, "The sphere packing problem in dimension 8," arXiv:1603.04246, *Annals of Mathematics* 185 (2017), 991–1015. The E8 root lattice is the unique densest packing in R⁸, via a "magic function" built from modular forms in the Cohn–Elkies LP framework. *Proven. (High confidence.)*
+
+**Dimension 24 (THEOREM).** Cohn, Kumar, Miller, Radchenko & Viazovska, "The sphere packing problem in dimension 24," arXiv:1603.06518, *Annals of Mathematics* 185 (2017), 1017–1033. The Leech lattice is the unique densest packing in R²⁴, density π¹²/12!. *Proven, days after the dim-8 result. (High confidence.)*
+
+**Universal optimality (THEOREM, published 2022).** Cohn, Kumar, Miller, Radchenko & Viazovska, "Universal optimality of the E8 and Leech lattices and interpolation formulas," arXiv:1902.05438, *Annals of Mathematics* 196 (2022), 983–1082. E8 and Leech minimize energy for *every* completely monotonic function of squared distance (all Gaussians / inverse power laws simultaneously) — a robustness far stronger than packing optimality and the first such result in dimension > 1. Relies on a new Fourier interpolation theorem reconstructing a radial Schwartz function from values and radial derivatives of f and f̂ at radii √(2n). *Proven. (High confidence.)*
+
+**Fields Medal 2022.** Viazovska awarded the Fields Medal (ICM 2022) largely for the dim-8 solution and its ramifications; laudatio by Henry Cohn.
+
+**Fourier interpolation (THEOREM).** Radchenko & Viazovska, "Fourier interpolation on the real line," *Publications mathématiques de l'IHÉS* 129 (2019), 51–81 (arXiv:1701.00265) — reconstructs an even Schwartz function from values of f and f̂ on {0, ±√1, ±√2, …}, via weakly holomorphic modular forms for the theta subgroup. Spawned a subfield (Bondarenko–Radchenko–Seip with zeta zeros; Ramos–Sousa perturbations; Kulikov–Nazarov–Sodin).
+
+**Are 8 and 24 still the only solved cases?** **YES** (beyond classical d = 1, 2, 3). d=2 = Thue; d=3 = Kepler conjecture, Hales (computer-assisted, *Annals* 2005; formal "Flyspeck" verification 2014/2017). **No new exactly-solved dimension has appeared 2016–2026** — still only {1, 2, 3, 8, 24}. *This is a clean confirmation. (High confidence.)*
+
+**Limitations of LP / Cohn–Elkies (mix of THEOREM and CONJECTURE):**
+- Cohn–Elkies ("New upper bounds on sphere packings I," *Annals* 157 (2003), 689–714) conjectured the LP bound is sharp exactly in d = 1, 2, 8, 24.
+- The LP bound is now **provably NOT sharp** in dimensions 3, 4, 5 (Rupert Li, "Dual Linear Programming Bounds for Sphere Packing via Discrete Reductions," arXiv:2206.09876, *Advances in Mathematics* 2024, extending Cohn–Triantafillou), 6 (de Courcy-Ireland, Dostert & Viazovska, "Six-dimensional sphere packing and linear programming," arXiv:2211.09044), and 12, 16 (Cohn–de Laat–Salmon three-point bounds). **d=2 remains the last conjectured-sharp case not yet proven.**
+- Cohn–de Laat–Salmon proved absence of a duality gap for the Cohn–Elkies LP.
+
+**2023–2026 lower-bound breakthroughs (THEOREMS, asymptotic regime):**
+- **Campos, Jenssen, Michelen & Sahasrabudhe, "A new lower bound for sphere packing," arXiv:2312.10026 (Dec 2023)** — density ≥ (1−o(1)) d·log d / 2^(d+1); the first asymptotically growing improvement to Rogers' 1947 bound (factor ~log d), via a graph-theoretic (independent-set) argument. A *disordered* (non-lattice) construction.
+- **Bo'az Klartag, "Lattice packing of spheres in high dimensions using a stochastically evolving ellipsoid," arXiv:2504.05042 (April 2025)** — *lattice* packings of density ≥ c·n²·2^(−n), a whole power-of-n improvement, via a stochastically evolving ellipsoid; notably an *ordered* construction beating the disordered record, reopening the order-vs-disorder debate. Bourbaki seminar by Aubrun (June 2026, arXiv:2606.13313); a follow-up combining Klartag's process with Venkatesh's cyclotomic symmetries reaches c·n²·loglog n·2^(−n) for infinitely many n (arXiv:2606.05105).
+- These are asymptotic *existence* lower bounds; they do NOT pin down optimal packings in any specific new dimension. *(High confidence.)*
+
+### C. Is there a catalogue distinguishing structural coincidences from debunked ones?
+
+**Honest answer: NO systematic maintained catalogue exists.** There is a Wikipedia "Mathematical coincidence" list (informal), OEIS entries, and folklore, but no curated, criteria-driven registry sorting "resolved into structure" vs. "debunked." *This is a clean negative — a result, not a failure. (High confidence.)*
+
+**The debunked / demoted cases:**
+- **Fine-structure constant ≈ 1/137 (DEBUNKED numerology).** Arthur Eddington (1929) conjectured 1/α is *exactly* the integer 137, "obtained by pure deduction," tying it to his Eddington-number cosmology. By the 1940s measured values refuted this. The CODATA 2022 recommended value is 1/α = 137.035999177(21); the most precise single measurement (Morel et al., Paris, Rb recoil, 2020) is α⁻¹ = 137.035999206(11) at 81 parts per trillion. No numerological derivation has ever been accepted by physics; Beck, Bethe & Riezler published a 1930 spoof of Eddington's method. *Status: numerological artifact — α is not an integer and runs with energy scale. (High confidence.)*
+- **Titius–Bode law (DISPUTED → mostly coincidence/weak dynamics).** a_n = 0.4 + 0.3·2^n fit the classical planets (with Ceres) but failed badly for Neptune/Pluto. Exoplanet-era reassessment (Bovaird–Lineweaver 2013; Huang–Bakos) found many Kepler multi-planet systems satisfy generalized T–B-like relations, but predictive tests were weak (few predicted planets confirmed). Per Wikipedia's Titius–Bode entry, "astrophysicist Alan Boss states that it is just a coincidence, and the planetary science journal *Icarus* no longer accepts papers attempting to provide improved versions of the law." *Icarus*'s editorial policy states verbatim: "Icarus does not publish papers that provide 'improved' versions of Bode's law, or other numerical relations, without a sound physical basis." *Status: at best weak emergent dynamics (resonance + stability + selection), at worst coincidence. (High confidence.)*
+
+**The structural cases (coincidences that WERE tunnels):**
+- **196884 = 196883 + 1** → Monstrous moonshine → VOAs, Borcherds' Fields Medal. The paradigm case.
+- **e^(π√163) ≈ 262 537 412 640 768 743.99999999999925 ("Ramanujan's constant," near-integer)** → EXPLAINED by class field theory. 163 is the largest Heegner number (Q(√−163) has class number 1); j((1+√−163)/2) = −640320³ is an exact integer, and the *j*-function expansion j = q⁻¹ + 744 + 196884q + … forces the near-integer because q = −e^(−π√163) is tiny. (Note the 196884 reappears — the same *j*-coefficient links the two structural cases.) The Heegner numbers 1,2,3,7,11,19,43,67,163 (Stark–Heegner theorem) also drive Euler's prime-generating polynomial n²−n+41. "Ramanujan's constant" is a misnomer from a 1975 Martin Gardner April Fool's hoax. *Status: fully structural via complex multiplication / singular moduli. (High confidence.)*
+
+**Meta-level tools and the selection criterion:**
+- **Experimental mathematics / integer-relation detection.** Bailey & Borwein championed PSLQ (Ferguson–Bailey–Arno, "Analysis of PSLQ," *Math. Comp.* 68 (1999), 351–369) and LLL as engines for *detecting* candidate relations to high precision (e.g., the BBP formula for π). Discovery tools: a PSLQ hit at 10,000 digits is strong evidence, not a proof.
+- **Guy's "Strong Law of Small Numbers"** (Richard K. Guy, *Amer. Math. Monthly* 95 (1988), 697–712): "There aren't enough small numbers to meet the many demands made of them." Corollaries: "superficial similarities spawn spurious statements" and "early exceptions eclipse eventual essentials." The central cautionary principle against small-sample coincidence-hunting.
+- **Philosophy of mathematical coincidence.** Marc Lange, "What Are Mathematical Coincidences (and Why Does It Matter)?", *Mind* 119, no. 474 (2010), 307–340. Lange's criterion: a combination of mathematical facts is a *genuine coincidence* iff it has **no unified explanation** — the components may share a "common explainer" but no "common explanation"; a joint truth is *non-coincidental* precisely when a single proof treats the components together. (No distinct primary "load-bearing coincidence" criterion paper exists beyond Lange; flagged as confirmed-absent.)
+
+**Synthesized selection criterion (INFERRED — my synthesis, flagged as such).** A numerical echo is likely "load-bearing" when it satisfies most of:
+1. **Exactness** — an exact identity, or agreement to machine precision that keeps improving with precision (196884 = 196883 + 1 exactly; e^(π√163) to ~30 digits), NOT a ~1% approximation (137; T–B).
+2. **Family, not singleton** — it extends to an infinite/parameterized family (all *j*-coefficients; all 23 Niemeier cases; all Heegner numbers), not one isolated hit.
+3. **Cross-domain reproducibility** — the same number appears in a genuinely independent structure (group representation theory ↔ modular forms; lattices ↔ harmonic analysis), so the agreement is "overdetermined."
+4. **Predictive fertility** — it generates correct new predictions before they are checked (Conway–Norton's McKay–Thompson series; Cohn–Elkies pre-predicting sharpness in 8 and 24).
+5. **Unified explanation available or plausible** (Lange) — persistent failure to find a common explanation, despite effort, demotes it toward "artifact" (137).
+
+---
+
+## 2) Open Problems Ranked by Single-GPU / Colab Tractability
+
+**Tier 1 — genuinely touchable on a laptop/Colab (replication & search):**
+
+1. **Computational moonshine coefficient checks (EASIEST).** Reproduce McKay–Thompson series / mock-modular Fourier coefficients and verify non-negativity and integrality of multiplicities for umbral/Mathieu/Thompson cases. This is exactly the finite computation the proofs reduce to: DGO report that the umbral multiplicity coefficients "are positive beyond the 390th coefficient" with "a finite computer calculation in sage" verifying the finitely many below; the Thompson case (Griffin–Mertens) reduces to positivity "for n ≥ 375" plus explicit Sage checks up to n=375. Tools: Sage, Pari/GP. Compute-light.
+2. **PSLQ/LLL integer-relation hunts for new coincidences.** Run high-precision PSLQ over candidate constants (special L-values, periods, CM points) to detect new candidate identities. GPU helps with high-precision arithmetic. Danger zone: Strong Law of Small Numbers.
+3. **LP / LP-dual sphere-packing bounds in intermediate dimensions.** Recompute Cohn–Elkies primal bounds and Li-style dual bounds in d = 3…16 to reproduce non-sharpness certificates. Linear / semidefinite programming, tractable in modest dimension.
+
+**Tier 2 — touchable but harder:**
+
+4. **Numerically replicate Viazovska / Radchenko–Viazovska magic-function & interpolation constructions.** Reconstruct the dim-8/24 magic functions and the √n interpolation basis from (quasi)modular forms; verify the sign/root conditions numerically. Mostly special-function evaluation.
+5. **Simulate Klartag's stochastically evolving ellipsoid** in moderate n to empirically measure achieved lattice densities vs. the c·n²·2^(−n) prediction. Monte Carlo; GPU-friendly.
+
+**Tier 3 — NOT single-GPU tractable (listed for boundary-marking):** proving LP non-sharpness in new high dimensions with rigorous SDP three-point bounds (Cohn–de Laat–Salmon used large compute); constructing the sought-after M24 K3 CFT; any new exactly-solved packing dimension; effective/explicit umbral moonshine modules.
+
+---
+
+## 3) Strongest Critiques, Failed Replications, Live Controversies
+
+- **"Everything is moonshine" overreach (live critique).** The proliferation (umbral, penumbral, Conway, Thompson, O'Nan, generalized, "modular products") invites skepticism that some correspondences are pattern-matching without deep content. The disciplining fact: the *proven* cases reduce to finite verifiable computations, and the community openly distinguishes existence proofs from the still-missing natural constructions (DGO themselves flag the ineffectiveness of the umbral proof).
+- **Mathieu moonshine's missing module (live open problem, not a failure).** Still no known K3 CFT realizing M24; Gannon's result proves existence of the representation, not a natural VOA/CFT. This is the main structural critique of Mathieu moonshine as "understood." Named skeptic-adjacent voices: this gap is emphasized by Gaberdiel–Hohenegger–Volpato and in Gannon's own "Much ado about Mathieu."
+- **Order vs. disorder in high-dimensional packing (live controversy, 2023–2025).** Campos et al.'s 2023 record used a *disordered* construction, taken by some as evidence disorder wins asymptotically; Klartag's 2025 *lattice* construction beat it, swinging opinion back toward order/symmetry. In Quanta (Joseph Howlett, "New Sphere-Packing Record Stems From an Unexpected Source," July 7, 2025), "Some researchers even believe his result might be close to optimal," while Gil Kalai (Hebrew University of Jerusalem) called it "really an amazing breakthrough … something that's excited mathematicians for nearly 100 years." Genuinely unresolved whether the bound is near-optimal.
+- **BSD-conditionality of pariah-moonshine arithmetic.** The headline "pariah groups know deep facts about elliptic curves" is partly BSD-conditional (Duncan–Mertens–Ono, Theorem 1.3, p = 11, 19). A precision caveat, not a dispute, but often glossed in popular accounts.
+- **Fine-structure numerology (settled critique).** Eddington's 137 program is the textbook case of over-reading a coincidence; refuted empirically by the 1940s and never credibly revived. Recurrent popular-science / preprint attempts to "derive α" (e.g., 2025 Medium claims of geometric derivations) are non-peer-reviewed — steer around.
+- **Titius–Bode (settled critique).** *Icarus*'s explicit editorial refusal of "improved" Bode's-law papers "without a sound physical basis" is a strong institutional signal the community treats it as non-fundamental.
+
+---
+
+## 4) The 5 Most Load-Bearing References
+
+1. **Borcherds, "Monstrous moonshine and monstrous Lie superalgebras," *Inventiones* 109 (1992), 405–444** — proves the founding coincidence became theorem; defines what "a coincidence resolving into structure" means. The keystone.
+2. **Duncan, Griffin & Ono, "Proof of the Umbral Moonshine Conjecture," *Res. Math. Sci.* 2:26 (2015), arXiv:1503.01472** — turns 23 conjectural coincidences into a theorem and explicitly flags its own ineffectiveness (the honest boundary between "proven" and "understood").
+3. **Cohn, Kumar, Miller, Radchenko & Viazovska, "Universal optimality of the E8 and Leech lattices," *Annals* 196 (2022), 983–1082, arXiv:1902.05438** — the strongest statement of why 8 and 24 are special; the magic-function / interpolation machinery is the transferable tool.
+4. **Duncan, Mertens & Ono, "O'Nan moonshine and arithmetic," *Amer. J. Math.* 143 (2021), 1115–1159, arXiv:1702.03516** — ties pariah groups to BSD-era arithmetic; the cleanest example of moonshine reaching into load-bearing number theory, with explicit theorem-vs-BSD-conditional bookkeeping.
+5. **Lange, "What Are Mathematical Coincidences (and Why Does It Matter)?", *Mind* 119 (2010), 307–340** — the one rigorous criterion (unified explanation vs. common explainer) for the whole R11 question; pairs with Guy's Strong Law of Small Numbers as the meta-toolkit.
+
+---
+
+## 5) NULL-CASE for Each Experiment (written BEFORE any promise)
+
+1. **Moonshine coefficient checks.** NULL: you compute McKay–Thompson coefficients and find a negative or non-integer multiplicity where a proven theorem predicts a non-negative integer → almost certainly an implementation bug; if triple-checked, it would contradict a theorem. *Demotion trigger: any discrepancy is a self-test failure, not a discovery.* Good calibration exercise, poor discovery vehicle.
+2. **PSLQ/LLL relation hunts.** NULL: a "relation" found at precision P vanishes when recomputed at 2P, or its integer coefficients are astronomically large (no parsimonious relation). Per the Strong Law of Small Numbers, most hits are artifacts. *Demotion trigger: not stable under increased precision and independent constants → discard.*
+3. **LP / dual sphere-packing bounds.** NULL: your recomputed bound fails to match published Cohn–Elkies/Li values in d ≤ 16 → implementation error; or your dual certificate does not exceed the best-known packing density → you have not proven non-sharpness. *Demotion trigger: inability to reproduce known non-sharpness certificates means the pipeline isn't sound; no new dimension is within reach.*
+4. **Magic-function / interpolation replication.** NULL: the reconstructed function violates the required sign conditions (f ≤ 0 outside the core, f̂ ≥ 0) or the interpolation basis fails Poisson summation numerically → construction not faithfully reproduced. *Demotion trigger: sign conditions fail → you have not captured the Viazovska construction.*
+5. **Klartag ellipsoid simulation.** NULL: measured densities in moderate n do not scale like n²·2^(−n) (e.g., they track the older n·2^(−n)) → either finite-size effects dominate at reachable n, or the process is mis-implemented. *Demotion trigger: no n²-scaling signal at tractable n means the experiment can't confirm the theorem's regime — likely asymptotic-only, beyond laptop reach.*
+
+**Only after these null cases:** experiments **2 and 3 are the most promising** for a small-compute program, because they can produce genuine (if modest) new data — a novel *stable* PSLQ relation worth chasing, or a reproduced/extended non-sharpness certificate — whereas 1, 4, 5 are calibration/replication of already-proven facts.
+
+---
+
+## 6) Adjacent Fringe Claims to Steer Around
+
+- **Fine-structure constant 137 numerology** (Eddington-style "derive α from pure number"). FRINGE: α is not an integer (137.035999177…), is dimensionless-but-scale-dependent (runs with energy), and no derivation has survived scrutiny; refuted empirically by the 1940s. Recurrent Medium/preprint "geometric derivations" are non-peer-reviewed.
+- **"Sacred geometry" / metaphysical sphere-packing and Platonic-solid claims.** FRINGE: they attach mystical significance to E8, the Leech lattice, or 24-dimensionality with no theorem content; the real results (Viazovska et al.) are specific optimality proofs, not numerological resonance.
+- **"Everything is moonshine" overreach.** FRINGE-adjacent: not every group–modular-form numerical coincidence is deep; the discipline is to demand a proven module (finite verifiable computation) and, ideally, a natural construction. Treat unproven "moonshine" claims as conjecture at best.
+- **Titius–Bode as a fundamental law / predictive planet-finder.** FRINGE-adjacent: at best weak emergent dynamics (resonance + stability + selection), it failed for Neptune/Pluto, and its exoplanet "confirmations" have weak predictive track records; *Icarus* declines such papers without a sound physical basis.
+- **Ramanujan's constant as mystical.** FRINGE if read as mysticism; it is *fully explained* by class field theory (Heegner numbers, singular moduli), and the "Ramanujan" attribution is a 1975 April Fool's hoax by Martin Gardner. Cite the structure, not the mystique.
+- **Numerological "integer relation" claims from PSLQ without stability checks.** FRINGE: PSLQ always returns *a* relation at finite precision; without precision-doubling stability and parsimonious coefficients, such "identities" are Strong-Law-of-Small-Numbers artifacts.
+
+---
+
+## Hygiene Summary
+- **Theorems (high confidence):** Monstrous moonshine (Borcherds); umbral moonshine existence (DGO); Mathieu M24 module existence (Gannon); Conway module (Duncan–Mack-Crane); Thompson module (Griffin–Mertens); O'Nan module existence + class-number congruences (DMO); dim-8 (Viazovska), dim-24 and universal optimality (CKMRV); Radchenko–Viazovska interpolation; LP non-sharpness in d = 3,4,5,6,12,16; Campos et al. and Klartag lower bounds; still only {1,2,3,8,24} exactly solved.
+- **Conjectural / open (explicitly):** natural M24 K3 CFT; effective umbral constructions; complete physical realization of umbral/Mathieu moonshine; Cohn–Elkies sharpness in d=2; optimal packings in all d ∉ {1,2,3,8,24}; moonshine for J3, J4, Ly, Ru.
+- **Conditional:** O'Nan-moonshine Selmer/Sha corollaries at p = 11, 19 (assume BSD).
+- **Inferred (not cited):** the 5-part "load-bearing coincidence" selection criterion in §1C is my synthesis of Lange + Guy + the case studies, not a quotation from any single source. The claim that the physical realization of umbral/Mathieu moonshine is still incomplete is also my inference from the cited literature.
+- **Clean negatives (a result, not a failure):** no maintained catalogue of coincidences exists; no new exactly-solved packing dimension since 2016; four pariahs still have no moonshine; no distinct philosophy paper beyond Lange proposes a formal "load-bearing coincidence" criterion.
+- **Flagged unconfirmed:** the Cheng–Duncan–Mertens M23 sequel ("Class Numbers, Elliptic Curves and the Second Largest Mathieu Group") is announced as *in preparation* and not yet posted; exact JLMS page range for "Class Numbers, Cyclic Simple Groups and Arithmetic" varies across listings.

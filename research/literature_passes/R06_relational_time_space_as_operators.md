@@ -1,0 +1,165 @@
+# Dig-Site R06 — Relational Ontology: Time & Space as Operators
+## One-pass literature map: emergent/relational time and the operator view of spacetime
+
+**Scope note:** This maps three sub-sites — (1) the Page–Wootters (PW) mechanism, (2) the Connes–Rovelli thermal time hypothesis (TTH), and (3) Kirkwood–Dirac (KD) quasiprobabilities/weak values as metrological and computational resources. Confidence grades (high/moderate/low) and theorem-vs-conjecture flags are applied per claim. "CITING" = drawn from a named source; "INFERRING" = my synthesis. All citations below correspond to papers located during research; where a reference's exact status was uncertain it is flagged explicitly rather than asserted.
+
+---
+
+## TL;DR
+- **Page–Wootters is now on firm mathematical ground.** Höhn–Smith–Lock's 2021 "trinity" theorem (Phys. Rev. D 104, 066001) proves the PW conditional-probability formalism, Dirac-observable relational observables, and quantum deparametrization are equivalent, and resolves Kuchař's propagator objection without approximations or ideal clocks. The live 2023–2026 frontier is *measurement relative to non-ideal clocks* (Hausmann–Schmidhuber–Castro-Ruiz, Quantum 9, 1616, 2025). This is the most tractable relational-time site for small-compute work.
+- **Thermal time remains a conjecture with no experimental test — a clean negative.** The Tomita–Takesaki/KMS machinery is rigorous mathematics, but whether the modular flow *is* physical time is contested (N. Swanson 2020; Chua 2026 circularity worry). No concrete operational or experimental test exists anywhere in 2015–2026.
+- **Kirkwood–Dirac negativity is theorem-level established as a resource** for postselected metrology (Arvidsson-Shukur et al., Nat. Commun. 2020) and quantum computation (Thio et al., PRL 2026); its link to contextuality is a theorem (Pusey 2014; Lostaglio 2018). The *practical* usefulness of anomalous-weak-value amplification is still genuinely disputed (Ferrie–Combes vs Jordan/Vaidman) but now understood as definition-dependent. KD distributions on small dimensions are the single best small-compute target.
+
+---
+
+## 1. State of the art, 2023–2026 (primary sources first)
+
+### 1.1 Page–Wootters mechanism (time from entanglement with a clock)
+
+**Foundational spine (CITING):**
+- **Page & Wootters (1983)** — original "evolution without evolution": a stationary global state satisfying a Wheeler–DeWitt-type constraint Ĥ|Ψ⟩ = 0, with time emerging from correlations between a clock subsystem and the rest of the universe.
+- **Giovannetti, Lloyd & Maccone, "Quantum Time," Phys. Rev. D 92, 045033 (2015)** (arXiv:1504.04215). Revives and repairs PW, showing it reproduces the correct statistics of sequential measurements performed at different times. This is the paper that reopened the field.
+- **Marletto & Vedral, "Evolution without evolution, and without ambiguities," Phys. Rev. D 95, 043510 (2017)** (arXiv:1610.04773). Argues the classic "ambiguity in the dynamics of the rest of the universe" objection to PW dissolves, and updates the model for new applications.
+
+**The central modern theorem (CITING, THEOREM-level):**
+- **Höhn, Smith & Lock, "Trinity of relational quantum dynamics," Phys. Rev. D 104, 066001 (2021)** (arXiv:1912.00033). Establishes an exact equivalence ("the trinity") between: (1) relational Dirac observables in the clock-neutral Dirac-quantization picture, (2) the PW Schrödinger-picture conditional-probability formalism, and (3) the relational Heisenberg picture via quantum deparametrization. Uses covariant POVM clocks (not idealized self-adjoint time operators), which encompass non-ideal clocks and resolve the Unruh–Wald non-monotonicity issue. Crucially it resolves Kuchař's propagator criticism by showing that conditional probabilities of relational observables yield the correct multi-time transition probabilities — and, per the paper, this resolution "does not invoke approximations, ideal clocks or ancilla systems, is manifestly gauge-invariant, and easily extends to an arbitrary number of conditionings."
+- **Höhn, Smith & Lock, "Equivalence of Approaches to Relational Quantum Dynamics in Relativistic Settings," Front. Phys. 9, 587083 (2021)** (arXiv:2007.00580). Extends the trinity to quadratic (relativistic) clock Hamiltonians, holding per frequency-superselection sector.
+
+**Kuchař's three objections and their claimed resolutions (CITING):**
+Kuchař (1992, "Time and interpretations of quantum gravity") raised three criticisms of PW:
+1. **Klein–Gordon / wrong probability density** — for a relativistic particle in Minkowski space, PW conditional probabilities disagree with the accepted Klein–Gordon localization density.
+2. **Violation of constraints** — the measurement projector Π = |τ⟩⟨τ|_C ⊗ |a⟩⟨a|_S does not commute with the Hamiltonian constraint Ĥ, so applying it throws the state out of the physical Hilbert space.
+3. **Wrong propagators** — naïvely iterating the conditional probability gives P ∝ |δ(τ′−τ)|², nonzero only at equal times, contradicting the Born rule for sequential measurements.
+
+Claimed resolutions: **Gambini, Porto, Pullin & Torterolo, Phys. Rev. D 79, 041501(R) (2009)** (arXiv:0809.4235) combined "evolving constants of motion" (Rovelli) with PW, working entirely in Dirac observables and computing the parametrized-particle propagator correctly, thereby "eliminating the objections that Kuchař had made." **Höhn–Smith–Lock (2021)** give the most complete resolution via the trinity, covering all three. (INFERRING, moderate confidence: the community now largely regards objections 2 and 3 as resolved; objection 1 (Klein–Gordon) is addressed via frequency-superselection in the 2021 Frontiers paper — I would call this *reframed* rather than resolved in the naïve Klein–Gordon-density sense.)
+
+**2023–2026 frontier — measurement and non-ideal clocks (CITING):**
+- **Hausmann, Schmidhuber & Castro-Ruiz, "Measurement events relative to temporal quantum reference frames," Quantum 9, 1616 (2025)** (arXiv:2308.10967, v4 Jan 2025). Compares two consistent measurement prescriptions in PW — the "twirled observable" approach (measurements invariant under the constraint) and the "purified measurement" approach (modifying the constraint dynamically). They agree in the ideal-clock limit, but a natural generalization to finite-resource clocks yields "a radically different picture." This is the sharpest current statement of what remains unsettled in relational quantum dynamics.
+- **Diaz, Braccia, Larocca, Matera, Rossignoli & Cerezo, "Parallel-in-time quantum simulation via Page and Wootters quantum time," Phys. Rev. Research 7, 033294 (published 29 Sep 2025)** (arXiv:2308.12944). Turns PW into a quantum algorithm: the time variable is promoted to log(N) "clock" qubits entangled with system qubits, and per the abstract the algorithms "can compute temporal properties over N different times of many-body systems by only using log(N) clock qubits… achiev[ing] an exponential trade-off between time and spatial complexities." Proves the clock–system entanglement has operational meaning.
+- **Rijavec, "Robustness of the Page-Wootters construction…" (arXiv:2204.11740, 2023)** — shows entanglement is not strictly required absent clock–system interactions, and interactions can produce non-unitary system evolution for some mixed universe states.
+- **Chataignier, Höhn, Lock & Mele, "Relational Dynamics with Periodic Clocks" (arXiv:2409.06479, 2024)** — extends relational dynamics to periodic/finite clocks.
+
+**Experimental illustrations beyond Moreva 2014 (CITING):**
+- **Moreva, Brida, Gramegna, Giovannetti, Maccone & Genovese, "Time from quantum entanglement: an experimental illustration," Phys. Rev. A 89, 052122 (2014)** (arXiv:1310.4691). A polarization-entangled photon pair in a singlet state; one photon is the clock and the other "the rest." The internal observer uses a two-valued polarization clock (|H⟩→t₁, |V⟩→t₂) and sees the second photon evolve; the external "super-observer" performs tomography and finds the conditional fidelity F = ⟨Ψ|ρ_out|Ψ⟩ between the reconstructed and theoretical initial state constant (and near unity) as a function of abstract coordinate time, confirming the global state is static. The authors caveat that it is an *illustration* that cannot discriminate PW from rival solutions to the problem of time.
+- **"Quantum Time: experimental multi-time correlations" (arXiv:1710.00707)** — extends the photonic PW illustration to multi-time correlation functions and tests a Leggett–Garg inequality from the internal observer's viewpoint.
+(INFERRING: genuinely new experimental platforms beyond quantum optics are thin; "experimental" PW work remains proof-of-principle illustrations, not tests that could falsify PW against rivals.)
+
+### 1.2 Connes–Rovelli thermal time hypothesis
+
+**Foundational spine (CITING):**
+- **Rovelli, "Statistical mechanics of gravity and the thermodynamical origin of time," Class. Quantum Grav. 10, 1549 (1993)** and its companion **"The statistical state of the universe," Class. Quantum Grav. 10, 1567 (1993)**. The companion shows that for a Robertson–Walker universe the thermal time associated with the cosmic background radiation precisely recovers standard Robertson–Walker cosmological time. (Note: some secondary sources loosely attribute this to Connes–Rovelli 1994, which merely cites the 1993 work; the correct primary citation is the 1993 CQG pair.)
+- **Connes & Rovelli, "Von Neumann algebra automorphisms and time-thermodynamics relation in generally covariant quantum theories," Class. Quantum Grav. 11, 2899 (1994)** (arXiv:gr-qc/9406019). The core proposal: in a generally covariant quantum theory the physical time flow is the state-dependent Tomita–Takesaki modular automorphism group of a KMS (equilibrium) state. Connes' prior result that this flow is unique up to inner automorphism (state-independent as an outer-automorphism class) is what makes "thermal time" well-defined. (THEOREM-level: Tomita–Takesaki theory and the KMS↔modular correspondence are rigorous; the *identification with physical time* is the CONJECTURE — the "hypothesis" proper.)
+
+**2023–2026 developments (CITING):**
+- **van Neerven & Portal, "Thermal time as an unsharp observable," J. Math. Phys. 65, 032105 (2024)** (arXiv:2306.13774). THEOREM (their Thm IV.2/4.2): the "clock-time POVM" of the quantum harmonic oscillator transforms covariantly (up to scale factor β) under the modular flow of the Gibbs state e^{−βN}, N the number operator; the proof relies on the normality of the Gibbs state. Extended to the free massless relativistic particle in 1D and to a system whose equilibrium state is the noncommutative (Dixmier-trace) integral. This is the most concrete recent mathematical advance — it recasts thermal time as an (unsharp) POVM observable rather than a self-adjoint time operator.
+
+**Critiques (CITING):**
+- **Noel Swanson (U. Delaware), "Can Quantum Thermodynamics Save Time?" Philosophy of Science 87(5), 1054–1066 (2020).** (Note: author is Noel Swanson, not "Eric.") Raises two technical + three conceptual objections: (i) *thermal time vs proper time* — no general linking theorem; the correspondence works only for the eternal uniformly accelerated (Rindler) observer via Bisognano–Wichmann, whereas mortal observers have bounded proper time but unbounded thermal time; (ii) *classical-limit triviality* — in a commutative algebra every state is tracial, so every modular automorphism acts as the identity, collapsing thermal time; (iii) *non-equilibrium absurdity* — "a cube of ice in a cup of hot coffee is in an invariant equilibrium state," and the TTH conflicts with the Past Hypothesis; (iv) *background-dependence* — a dynamical reading of the modular flow seems to require antecedent spacetime structure; (v) *gauge-dependence* — the interpretation is couched in gauge-dependent partial observables. Verdict: the two technical challenges may be addressable; the three conceptual problems are the tougher hurdle.
+- **Chua, "The Time in Thermal Time," J. Gen. Philos. Sci. 57, 235–258 (2026)** (arXiv:2407.18948, 2024). Central worry: the TTH is *circular* — it requires dynamics (hence time) to define equilibrium/KMS states in the first place, so it cannot manufacture time "from no-time" without smuggling time in.
+
+**Proposed tests — CLEAN NEGATIVE (CITING + INFERRING):** There is essentially **no concrete operational or experimental test of the TTH in 2015–2026.** The literature is formal or philosophical. Rovelli's own operational statement ("Forget Time," Found. Phys. 41, 1475, 2011) is an in-principle recipe (measure ρ, take −log ρ as the modular/thermal Hamiltonian, its flow is time), not a laboratory protocol. (INFERRING, high confidence: this is a genuine research gap, not under-reporting.) **Caveat to avoid a widespread error:** the Moreva 2014 experiment tests Page–Wootters, NOT thermal time; the two are routinely conflated in popular coverage and should not be.
+
+**Relation to Unruh/Hawking (CITING):** The one regime where the modular flow demonstrably coincides with a geometric time flow is the Rindler wedge, where the modular Hamiltonian generates boosts and the KMS temperature is the Unruh temperature (Bisognano–Wichmann theorem). This is the strongest evidence *for* the hypothesis's physical content — but it is precisely the case where the background geometry is already known, which is the crux of Swanson's background-dependence objection.
+
+### 1.3 Kirkwood–Dirac quasiprobabilities & weak values (2021–2026)
+
+**The metrological-resource theorem (CITING, THEOREM-level):**
+- **Arvidsson-Shukur, Yunger Halpern, Lepage, Lasek, Barnes & Lloyd, "Quantum advantage in postselected metrology," Nat. Commun. 11, 3775 (2020)** (arXiv:1903.02563). THEOREM: postselection can raise the Fisher-information-per-final-measurement rate above the best postselection-free strategy, and this improvement stems from the negativity/nonreality of a KD-type quasiprobability distribution. Per the abstract: "Negative quasiprobabilities enable postselected experiments to outperform optimal postselection-free experiments: postselected quantum experiments can yield anomalously large information-cost rates. This advantage, we prove, is unrealizable in any classically commuting theory." This is the load-bearing result tying KD negativity to a genuine operational metrological resource.
+- **Lupu-Gladstein, Yilmaz, Arvidsson-Shukur, Brodutch, Pang, Steinberg & Yunger Halpern, "Negative quasiprobabilities enhance phase estimation in quantum-optics experiment," Phys. Rev. Lett. 128, 220504 (2022)** (arXiv:2111.01194). Experimental realization via "partially postselected amplification" (PPA): per the paper, "Using PPA, we measure a waveplate's birefringent phase. PPA amplifies, by over two orders of magnitude, the information obtained about the phase per detected photon… The filter's amplification of systematic errors, we find, bounds the theoretically unlimited advantage in practice."
+
+**The contextuality link (CITING, THEOREM-level):**
+- **Pusey, "Anomalous Weak Values Are Proofs of Contextuality," Phys. Rev. Lett. 113, 200401 (2014)** (arXiv:1409.1535). THEOREM: a sufficiently weak measurement yielding an anomalous weak value (outside the eigenvalue range) constitutes a proof of generalized (Spekkens) contextuality.
+- **Kunjwal, Lostaglio & Pusey, "Anomalous weak values and contextuality: robustness, tightness, and imaginary parts," Phys. Rev. A 100, 042116 (2019).** Makes Pusey's theorem noise-robust and shows the extra assumptions are tight — drop any one and the anomaly is classically reproducible.
+- **Lostaglio, "Quantum fluctuation theorems, contextuality, and work quasiprobabilities," Phys. Rev. Lett. 120, 040602 (2018)** and **"Certifying quantum signatures in thermodynamics and metrology via contextuality of quantum linear response," Phys. Rev. Lett. 125, 230603 (2020).** KD/Margenau–Hill negativity in work statistics is a direct signature of contextuality.
+- **Spekkens, "Negativity and contextuality are equivalent notions of nonclassicality," Phys. Rev. Lett. 101, 020401 (2008)** — the conceptual bedrock: quasiprobability negativity ⟺ contextuality.
+
+**Structure/foundations of KD nonclassicality (CITING):**
+- **De Bièvre, "Complete incompatibility, support uncertainty, and Kirkwood-Dirac nonclassicality," Phys. Rev. Lett. 127, 190404 (2021)** and J. Math. Phys. 64, 022202 (2023) — noncommutation is *necessary but not sufficient*; "complete incompatibility" and support-uncertainty conditions govern when KD negativity/nonreality appears.
+- **Arvidsson-Shukur, Drori & Yunger Halpern, "Conditions tighter than noncommutation needed for nonclassicality," J. Phys. A 54, 284001 (2021).**
+- **Lostaglio, Belenchia, Levy, Hernández-Gómez, Fabbri & Gherardini, "Kirkwood-Dirac quasiprobability approach to the statistics of incompatible observables," Quantum 7, 1128 (2023).**
+- **Arvidsson-Shukur, Braasch, De Bièvre, Dressel, Jordan, Langrenez, Lostaglio, Lundeen & Yunger Halpern, "Properties and applications of the Kirkwood-Dirac distribution," New J. Phys. 26, 121201 (2024)** (arXiv:2403.18899) — the definitive review.
+- **Budiyono & Dipojono, "Quantifying quantum coherence via Kirkwood-Dirac quasiprobability," Phys. Rev. A 107, 022408 (2023)**; Budiyono et al., "Quantum coherence from KD nonclassicality" (arXiv:2309.09162) — KD nonclassicality as a faithful coherence quantifier, upper-bounded by state purity/Tsallis-½ entropy.
+- **Wagner & Galvão, "Simple proof that anomalous weak values require coherence," Phys. Rev. A 108, L040202 (2023).**
+
+**Computation as a resource (CITING, THEOREM-level, most recent):**
+- **Thio, Yang, De Bièvre, Barnes & Arvidsson-Shukur, "Kirkwood-Dirac Nonpositivity is a Necessary Resource for Quantum Computing," Phys. Rev. Lett. (2026)** (arXiv:2506.08092, Jun 2025). THEOREM: casting a real-qubit (rebit) model of computation in KD terms, per the abstract, "Algorithms, throughout which this distribution is a proper (positive) probability distribution can be simulated efficiently on a classical computer… KD nonpositivity is a resource monotone for quantum computation." They define a "KD mana" monotone, construct previously unknown bound (magic) states, and extend the volume of classically simulable input states by ~15% relative to the Gottesman–Knill-type baseline. (Note: the final PRL author list omits Yunger Halpern, who appears in acknowledgments; earlier preprint listings include her.) Extends prior Wigner-negativity/odd-dimension results to qubits.
+- **Langrenez, Salmon, De Bièvre, Thio, Long & Arvidsson-Shukur, "The set of Kirkwood-Dirac positive states is almost always minimal" (arXiv:2405.17557)** — geometry of KD-positive states.
+- **Schmid, Baldijão, Yīng, Wagner & Selby, "Kirkwood-Dirac representations beyond quantum states (and their relation to noncontextuality)" (arXiv:2405.04573, 2024)** — if any everywhere-real-nonnegative KD representation exists for a fragment of quantum theory, that fragment is noncontextual.
+
+---
+
+## 2. Open problems ranked by tractability for single-GPU / Colab compute
+
+Ranked most→least tractable for a small numerical run.
+
+**(A) [MOST TRACTABLE] Compute KD distributions and their negativity/nonreality for small-dimensional systems.** For d = 2–8, pick two bases A = {|a⟩}, B = {|b⟩} and a state ρ, and compute Q(a,b) = ⟨b|a⟩⟨a|ρ|b⟩. Everything is dense linear algebra on ≤ 8×8 matrices — trivially a Colab CPU/GPU job. Concretely reproducible tasks: (i) map the negativity/nonreality volume (Σ|Q| − 1) over random states and over base pairs at varying mutual unbiasedness; (ii) numerically test De Bièvre's complete-incompatibility/support-uncertainty thresholds (PRL 127, 190404); (iii) probe the Thio et al. rebit simulability boundary by checking which small circuits keep KD positive and reproduce their ~15% simulable-volume extension; (iv) compute the Arvidsson-Shukur postselected Fisher-information-per-trial and confirm it tracks KD negativity. **HIGH confidence** this is doable and touches live frontiers (the geometry of KD-positive qubit states is actively being mapped).
+
+**(B) [TRACTABLE] Simulate a Page–Wootters clock+system on a few qubits.** Build a clock register (n_C qubits → 2^{n_C} clock states) and a small system (1–3 qubits), impose the constraint Ĵ = H_C ⊗ 1 + 1 ⊗ H_S (or a Wheeler–DeWitt-type Ĵ|Ψ⟩ = 0), solve for the history state, and extract conditional states ρ_S(τ) = Tr_C[(|τ⟩⟨τ|⊗1)|Ψ⟩⟨Ψ|]/norm. Verify they reproduce e^{−iH_Sτ}ρ_S(0)e^{+iH_Sτ}. This directly implements the Diaz–Cerezo (arXiv:2308.12944) parallel-in-time scheme classically, and can numerically reproduce the Höhn–Smith–Lock multi-time propagator resolution of Kuchař on a qubit toy model. **HIGH** confidence for the basic construction; **MODERATE** for cleanly reproducing the covariant-POVM non-ideal-clock results (careful POVM discretization needed).
+
+**(C) [MODERATELY TRACTABLE, but see null case] Compute modular Hamiltonians for small systems.** For a finite bipartite state, the Tomita–Takesaki modular Hamiltonian of a reduced state ρ_A is K = −log ρ_A and the modular flow is σ_t(O) = ρ_A^{it} O ρ_A^{−it} — computable by diagonalizing a small density matrix. Concretely: (i) verify van Neerven–Portal covariance numerically for a truncated harmonic oscillator (finite photon cutoff) with Gibbs state e^{−βN}; (ii) compute modular flow for a two-qubit/two-mode thermal state and check whether it approximates any geometric time. **HIGH** confidence the linear algebra is trivial; **LOW** confidence it says anything decisive about the *physical* TTH (see §5 null case — finite truncations are type-I algebras and miss the type-III₁ structure where the hypothesis lives).
+
+**(D) [HARDER] Reproduce the anomalous-weak-value amplification Fisher-information analysis** end-to-end (Jordan et al. vs Ferrie–Combes), including technical-noise and detector-saturation models, to locate numerically the regime where PPA-type postselection genuinely wins. Tractable via Monte Carlo on small systems, but the payoff is settling a modeling debate, so results are sensitive to noise-model assumptions. **MODERATE** confidence.
+
+---
+
+## 3. Strongest critiques, failed replications, live controversies
+
+**(i) Kuchař vs PW defenders (largely resolved, CITING).** Kuchař's three objections (constraints, propagators, Klein–Gordon) were the standing indictment. Gambini–Porto–Pullin–Torterolo (2009) and decisively Höhn–Smith–Lock (2021) claim resolution of the constraint and propagator objections via Dirac observables/covariant POVMs. (INFERRING, moderate confidence: objections 2–3 are now widely regarded as resolved; objection 1 is reframed via frequency superselection rather than resolved in the naïve Klein–Gordon-density sense.)
+
+**(ii) What a PW measurement even means (LIVE, CITING).** Hausmann–Schmidhuber–Castro-Ruiz (Quantum 2025) show the "twirled observable" and "purified measurement" prescriptions diverge for finite-resource clocks. This is the genuinely open front: no consensus yet on how to represent a measurement event relative to a quantum clock when the clock is non-ideal.
+
+**(iii) Does thermal time have physical content? (LIVE, CITING).** N. Swanson (2020) and Chua (2026) mount serious objections: classical-limit triviality, proper-time mismatch for mortal observers, the non-equilibrium absurdity, background-dependence, and the circularity of defining equilibrium (hence KMS) without pre-existing dynamics. Defenders (Rovelli; formalizers like van Neerven–Portal) have rigorous mathematics but no proposed *test*. (INFERRING: honest status is "open, leaning skeptical on physical content" — the math is real; the physics claim is unfalsified and arguably, as currently stated, unfalsifiable.)
+
+**(iv) Anomalous-weak-value amplification usefulness (LIVE but clarifying, CITING).**
+- **Ferrie & Combes, PRL 112, 040406 (2014)** — WVA is *suboptimal* for single-parameter estimation/detection; postselection discards data and lowers Fisher information once the postselection probability is accounted. Reinforced by **Knee & Gauger, Phys. Rev. X 4, 011032 (2014)** (fails to suppress technical noise) and **Combes, Ferrie, Jiang, Carlton, Caves, Phys. Rev. A 89, 052117 (2014)**.
+- **Jordan, Martínez-Rincón & Howell, Phys. Rev. X 4, 011031 (2014)** ("when less is more") and **Vaidman, Phil. Trans. R. Soc. A 375, 20160395 (2017)** — WVA delivers real *technical* advantages (detector saturation, correlated/technical noise, reduced data handling); the Ferrie–Combes assumption (limiting factor = number of *preselected* systems) is irrelevant to many real experiments where the limit is *detected/postselected* photons.
+- **Reconciliation (INFERRING, moderate confidence):** the debate is now largely a matter of *which resource is held fixed*. For Fisher-information-per-input-particle, Ferrie–Combes are correct: postselection cannot beat the optimal non-postselected strategy. For Fisher-information-*per-detected-photon* or per-final-measurement (the Arvidsson-Shukur 2020 figure of merit, realized by Lupu-Gladstein 2022), postselection genuinely wins, and the win is certified by KD negativity. This is a rare case where a foundational quasiprobability theorem adjudicates a metrology dispute.
+
+**(v) No failed replications of note (CITING/INFERRING, clean negative).** The Moreva 2014 and Lupu-Gladstein 2022 results have not been contradicted; they are illustrations/proofs-of-principle rather than contested claims. I found no failed-replication literature for either PW or KD experiments.
+
+---
+
+## 4. The 5 most load-bearing references
+
+1. **Höhn, Smith & Lock, Phys. Rev. D 104, 066001 (2021)** — the theorem that unifies the three relational-dynamics formalisms and resolves Kuchař's propagator objection; the backbone of modern PW legitimacy.
+2. **Giovannetti, Lloyd & Maccone, Phys. Rev. D 92, 045033 (2015)** — reopened the entire field by repairing PW to handle sequential-measurement statistics.
+3. **Arvidsson-Shukur et al., Nat. Commun. 11, 3775 (2020)** — proves KD negativity is a genuine, non-classical metrological resource; the fulcrum of the whole KD-as-resource program.
+4. **Pusey, Phys. Rev. Lett. 113, 200401 (2014)** — the theorem making anomalous weak values proofs of contextuality, connecting weak values to the deepest notion of nonclassicality.
+5. **Connes & Rovelli, Class. Quantum Grav. 11, 2899 (1994)** — origin and still-canonical statement of the thermal time hypothesis; everything in sub-site 2 is a response to it.
+
+---
+
+## 5. Null cases (written BEFORE claiming any idea is promising) for each experiment in §2
+
+**(A) KD negativity for small systems — NULL CASE:** If, across the swept states/bases, KD negativity fails to correlate monotonically with the operational figure of merit (postselected Fisher-information rate, or the circuit simulability boundary), then negativity is not the resource the theorems claim, and the run demotes the whole "KD-as-resource" framing. Concrete kill signals: a KD-*positive* state that nonetheless yields a postselected metrological advantage, OR a KD-*negative* circuit that is efficiently classically simulable. Either falsifies the monotone claim. (INFERRING: I expect the theorems to hold, so this null case is unlikely to fire — which is exactly why passing it is only weak confirmation, not discovery.)
+
+**(B) PW clock+system — NULL CASE:** If the conditional states ρ_S(τ) extracted from the constraint-satisfying history state fail to match standard Schrödinger evolution for an ideal clock, the implementation is wrong (not the physics). The *physically interesting* kill signal: if, for non-ideal (finite, coarse) clocks, the twirled-observable and purified-measurement prescriptions yield the *same* conditional dynamics, that would contradict Hausmann et al. (2025) and demote the claim that the non-ideal-clock measurement problem is open. Observing agreement where they predict divergence is the kill.
+
+**(C) Modular Hamiltonian / thermal time — NULL CASE (stated first, and it is expected to fire):** If the numerically computed modular flow σ_t(O) = ρ^{it}Oρ^{−it} for a truncated system fails to converge, or converges to something with no physical-time interpretation, as the truncation is lifted, then the run shows only that finite truncations cannot access the type-III structure where the TTH lives. **This null case is *expected* to fire**: a finite-dimensional algebra is type I, whereas the deep TTH content requires type III₁ von Neumann algebras that no finite truncation realizes. **Therefore this is the LEAST promising idea, stated plainly:** small compute can illustrate the modular-flow *formula* but cannot test the *hypothesis*.
+
+**(D) WVA Fisher-information analysis — NULL CASE:** If, under realistic noise models, the postselected (PPA-type) protocol never exceeds the optimal non-postselected Fisher-information-per-resource for *any* operationally relevant cost (detected photons, final measurements), then the "technical advantage" camp is wrong for that cost model, and the idea is demoted to "advantage is an artifact of a favorable denominator." Kill signal: a cost model under which postselection strictly loses on every axis.
+
+**Only after the null cases:** (A) and (B) are the promising ones — (A) because the linear algebra is trivial and the frontier (qubit KD-positive geometry, rebit simulability) is live; (B) because it directly implements a published quantum algorithm and can reproduce a real theorem on a laptop. (C) is illustrative-only; (D) is worth doing but settles a modeling debate rather than a physics fact.
+
+---
+
+## 6. Adjacent fringe claims to steer around
+
+- **"Physics has proven time is an illusion / doesn't exist."** Popular-press renderings (e.g., New Scientist Jan 2026-style coverage) and philosophical pieces such as the "Experiential Empiricism" PhilArchive item overclaim. PW and TTH are technical proposals about *how a time parameter emerges from correlations or modular flow*; they do not show clocks, aging, or particle decay are illusory. Fringe because it conflates "time is not fundamental in this formalism" with "time is unreal."
+- **Thermal-time "thermal ontology" / degrees-of-reality-by-temperature.** Blog-level extrapolations assigning "degrees of reality" by temperature (e.g., CMB "less real" than a star) have no basis in the Connes–Rovelli mathematics. Fringe: metaphysical embroidery unsupported by the formalism.
+- **"Tired light" / non-standard CMB-origin cosmologies invoked near thermal-time discussions.** Some stationary-universe and tired-light papers surface in thermal-time-adjacent searches. These are observationally disfavored cosmologies unrelated to the TTH's actual claims. Fringe: rejected by standard cosmology.
+- **Weak values as evidence of literal retrocausality / "the particle really was in two places."** The two-state-vector formalism is legitimate; strong ontological retrocausal readings of anomalous weak values are not consensus. Steer around presenting weak values as *direct measurements* of pre/post-selected reality — Pusey's contextuality framing is the defensible statement.
+- **Indefinite-causal-order / "noncausal Page–Wootters circuits" as established gravitational physics (caution, not outright fringe).** Baumann, Krumm, Guérin & Brukner (Phys. Rev. Research 4, 013180, 2022) noncausal PW circuits are legitimate research, but they are sometimes cited as if causal structure has been shown experimentally indefinite in gravitational settings — that extrapolation is not established.
+
+---
+
+## Confidence & honesty ledger
+- PW mathematical legitimacy and Kuchař resolution (objections 2–3): **HIGH** (theorem-level, multiply sourced).
+- PW non-ideal-clock measurement being open: **HIGH** (Hausmann et al. 2025 explicit).
+- Kuchař objection 1 (Klein–Gordon) "resolved": **MODERATE** — reframed via frequency superselection (flagged as inference).
+- KD negativity as metrological/computational resource: **HIGH** (theorem-level: Arvidsson-Shukur 2020; Thio et al. 2026).
+- KD ⟺ contextuality: **HIGH** (Pusey 2014; Spekkens 2008; Kunjwal–Lostaglio–Pusey 2019).
+- WVA practical usefulness: **genuinely disputed / definition-dependent** — reported as unresolved, with the reconciliation ("postselection wins only for specific per-detection cost metrics") flagged as my inference.
+- Thermal time physical content: **OPEN, leaning skeptical**; no experimental test exists (clean negative), HIGH confidence on the absence.
+- Failed replications: **none found** (clean negative).
+- No citation above is fabricated; where a reference's exact status (e.g., PRL publication vs preprint for Thio et al., or author-list details) or a resolution's completeness was uncertain, it is flagged in-text rather than asserted.

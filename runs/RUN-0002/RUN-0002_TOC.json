@@ -1,0 +1,132 @@
+{
+  "schema": "ompu.run_index.v0.1",
+  "run_id": "RUN-0002",
+  "date": "2026-07-07",
+  "router": "Den",
+  "assembler": "Neo",
+  "created_by": "Neo",
+  "input_summary": "Den requested Neo to take the next pass as low-temperature normalizer/validator after Phi/Fable5 high-temperature R14 exploration, with goal of reaching math and experiments through alternating roles.",
+  "temperature": "low / validator / normalization",
+  "source_context": [
+    "Phi/Fable5 R14 oscillatory pass pasted by Den",
+    "DIG-001_Methodology_MBlocks_v0_1.md",
+    "ANOMALY_DIG_RESEARCH_DISPATCH.md",
+    "OMPU_ANOMALY_DIG_v0.1.md"
+  ],
+  "outputs": [
+    {
+      "file": "RUN-0002_MBLOCKS.json",
+      "kind": "mblock_ledger",
+      "status": "created",
+      "purpose": "Atomic normalized blocks for R14 claims, null cases, tests, collisions, and verdict."
+    },
+    {
+      "file": "RUN-0002_SOURCE_REQUESTS.json",
+      "kind": "source_request_list",
+      "status": "created",
+      "purpose": "Concrete library file queue for Den."
+    },
+    {
+      "file": "RUN-0002_COLLISIONS.json",
+      "kind": "collision_map",
+      "status": "created",
+      "purpose": "Overclaim guards and demotion rules."
+    },
+    {
+      "file": "RUN-0002_COLAB_QUEUE.json",
+      "kind": "colab_queue",
+      "status": "created",
+      "purpose": "Prioritized math/experiment queue."
+    },
+    {
+      "file": "RUN-0002_NEO_LOW_TEMP_PASS.md",
+      "kind": "run_summary",
+      "status": "created",
+      "purpose": "Human-readable low-temperature verdict and next action."
+    }
+  ],
+  "toc": [
+    {
+      "section": "0",
+      "title": "Verdict in one paragraph"
+    },
+    {
+      "section": "1",
+      "title": "What was cooled"
+    },
+    {
+      "section": "2",
+      "title": "First two lanes"
+    },
+    {
+      "section": "3",
+      "title": "Frozen branches"
+    },
+    {
+      "section": "4",
+      "title": "Collision rules"
+    },
+    {
+      "section": "5",
+      "title": "Next run"
+    }
+  ],
+  "promoted_blocks": [
+    "M-RUN-0002-003",
+    "M-RUN-0002-004",
+    "M-RUN-0002-005",
+    "M-RUN-0002-009",
+    "M-RUN-0002-010",
+    "M-RUN-0002-011",
+    "M-RUN-0002-020",
+    "M-RUN-0002-023"
+  ],
+  "file_requests_for_Den": [
+    {
+      "request_id": "REQ-R14-A-zeros",
+      "priority": "P0",
+      "file_needed": "Riemann zeta zero table or authoritative Odlyzko dataset/sample",
+      "acceptable": "CSV/TXT/PDF source with zeros; even first 100k zeros enough for prototype",
+      "needed_for": [
+        "M-RUN-0002-005"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-A-Montgomery",
+      "priority": "P0",
+      "file_needed": "Montgomery pair correlation primary or rigorous review",
+      "acceptable": "PDF/book scan/excerpt with exact pair correlation formula and hypotheses",
+      "needed_for": [
+        "M-RUN-0002-003",
+        "M-RUN-0002-004"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-C-BerryUpstill",
+      "priority": "P1",
+      "file_needed": "Berry & Upstill catastrophe optics or equivalent caustic classification review",
+      "acceptable": "PDF/book chapter/review",
+      "needed_for": [
+        "M-RUN-0002-009",
+        "M-RUN-0002-011"
+      ]
+    },
+    {
+      "request_id": "REQ-R14-F-SorkinSinha",
+      "priority": "P2",
+      "file_needed": "Sorkin higher-order interference + Sinha triple-slit experimental papers",
+      "acceptable": "primary paper or authoritative review with caveats",
+      "needed_for": [
+        "M-RUN-0002-014",
+        "M-RUN-0002-015"
+      ]
+    }
+  ],
+  "one_next_step": "RUN-0003: source audit + notebook skeleton for R14-A zeta sine-kernel only.",
+  "do_not_do_next": [
+    "Do not expand R14 into ontology.",
+    "Do not activate all branches at once.",
+    "Do not run R14-B explicit formula before theorem skeleton.",
+    "Do not use agent-cited links as validated sources."
+  ]
+}

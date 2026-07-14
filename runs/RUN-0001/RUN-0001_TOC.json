@@ -1,0 +1,65 @@
+{
+  "schema": "ompu.run_index.v0.1",
+  "run_id": "RUN-0001",
+  "date": "2026-07-07",
+  "router": "Den",
+  "assembler": "Neo",
+  "input_summary": "Den requested a methodology file for JSON/M-block routing with mandatory this_is_not fields, small linked blocks, source/file requests, tests, math, Colab pathway, and end-of-pass JSON index.",
+  "source_context": [
+    "ANOMALY_DIG_RESEARCH_DISPATCH.md",
+    "OMPU_ANOMALY_DIG_v0.1.md",
+    "DIG-000_Digging_Where_It_Glows_v0.1.md",
+    "ZENODO_PACKAGE_DIG-000.md"
+  ],
+  "outputs": [
+    {
+      "file": "DIG-001_Methodology_MBlocks_v0_1.md",
+      "kind": "methodology",
+      "status": "created",
+      "purpose": "Main operating protocol for small JSON/M-blocks, double contour, null-first workflow, source audit, math skeleton, Colab, and DIG routing."
+    },
+    {
+      "file": "MBLOCK_SCHEMA_v0_1.json",
+      "kind": "json_schema",
+      "status": "created",
+      "purpose": "Machine-readable schema enforcing required this_is_not and decision fields."
+    },
+    {
+      "file": "RUN-0001_TOC.json",
+      "kind": "run_index",
+      "status": "created",
+      "purpose": "End-of-run numbered JSON table of contents."
+    }
+  ],
+  "toc": [
+    {"section": "0", "title": "Core rule"},
+    {"section": "1", "title": "Why JSON/M-blocks"},
+    {"section": "2", "title": "Naming"},
+    {"section": "3", "title": "M-block schema"},
+    {"section": "4", "title": "Block kinds"},
+    {"section": "5", "title": "Status lifecycle"},
+    {"section": "6", "title": "Claim strength fields"},
+    {"section": "7", "title": "Required this_is_not patterns"},
+    {"section": "8", "title": "Null-first rule"},
+    {"section": "9", "title": "Source audit block"},
+    {"section": "10", "title": "Math skeleton block"},
+    {"section": "11", "title": "Test / Colab block"},
+    {"section": "12", "title": "Request block for Den"},
+    {"section": "13", "title": "Collision handling"},
+    {"section": "14", "title": "Verdict block"},
+    {"section": "15", "title": "End-of-run JSON index"},
+    {"section": "16", "title": "Routing rules"},
+    {"section": "17", "title": "WIP discipline"},
+    {"section": "18", "title": "Promotion rules"},
+    {"section": "19", "title": "Publication routing"},
+    {"section": "20", "title": "Phi / other-agent packet requirements"},
+    {"section": "21", "title": "Operating sentence"}
+  ],
+  "next_agent_prompt": {
+    "target": "Phi / Claude Fable5",
+    "purpose": "Convert the previous R14 oscillatory pass into a cold JSON/M-block claim ledger with explicit this_is_not, source requests, null cases, and one next step."
+  },
+  "open_requests": [],
+  "recommended_next_run": "RUN-0002",
+  "recommended_next_action": "Send the Phi prompt from Neo's message and ask for JSON/M-block output only."
+}

@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "title": "Digging Where It Glows — The Anomaly Dig, Part 0: A Research Program on Probability, Entropy, and Other Load-Bearing Illusions",
+    "creators": [
+      {
+        "name": "Belsky, Den",
+        "affiliation": "OMPU (Open Mind Philosophical University)",
+        "orcid": "0000-0002-2988-7501"
+      },
+      {
+        "name": "Φ (Claude)",
+        "affiliation": "OMPU (Open Mind Philosophical University)"
+      }
+    ],
+    "description": "<p>Root node (DIG-000) of The Anomaly Dig: a long-horizon excavation program for anomalies at the foundations of mathematics, probability, and physics. An anomaly here is not a mystery but an invoice: a reproducible place where intuition trained on finite, local, commutative experience pays a measurable price for extrapolation. Eleven workstreams (grokking phase transitions, entropy leaks between scales, Landauer-grade side effects of computation, synchronization on a moving floor, deformations of probability, orthogonality and the pixel, primes as a spectrum, incompressibility and the borders of proof, coincidences as tunnels) plus one home specimen: a live knowledge graph treated as a percolating medium. Method: R→M→C→P pipeline, pre-registered NULL-cases, T-ratings for speculation vs GRADE for empirics, blind cross-model triangulation between independent AI architectures. This record is the root of a citable publication graph (DIG-xxx); child nodes link back via DataCite relations. Negative results are published on principle in a dedicated Graveyard series (DIG-9xx). Human–AI mixed byline, disclosed; accountability rests with the human author.</p>",
+    "keywords": [
+      "mathematical anomalies",
+      "foundations of probability",
+      "grokking",
+      "phase transitions",
+      "entropy",
+      "Landauer principle",
+      "synchronization",
+      "Kuramoto",
+      "singular learning theory",
+      "percolation",
+      "knowledge graphs",
+      "human-AI collaboration",
+      "open notebook science",
+      "negative results"
+    ],
+    "language": "eng",
+    "version": "0.1",
+    "license": "cc-by-4.0",
+    "communities": [
+      {
+        "identifier": "ompu"
+      }
+    ],
+    "notes": "Series: The Anomaly Dig, node DIG-000 (root). Child nodes will declare isPartOf → this record's concept DOI. Amended same-day on first request, from either side of the byline."
+  }
+}

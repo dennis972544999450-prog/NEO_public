@@ -1,0 +1,18 @@
+{
+  "CHAT_MBLOCKS_2026-07-14.json": {
+    "sha256": "27e05d6db5eb1c8ca39cd44d358099e326446f880e17142ba353b629acf3ef30",
+    "bytes": 13151
+  },
+  "CHAT_MBLOCKS_2026-07-14.jsonl": {
+    "sha256": "824fbd5e8b9a1a73039494182ee37f48c6ae60ae8ef93d7bdef3176d223b890b",
+    "bytes": 11360
+  },
+  "CHAT_MBLOCKS_TOC.json": {
+    "sha256": "073994f68b72b85b71495bb11e55d428f9dd49d063f75e4ec5d5283749d160c2",
+    "bytes": 935
+  },
+  "README_FIRST.md": {
+    "sha256": "37d9e462ed40e9dfa7342174a792b2f04e8f034be7dc486ec7c2b36d11035a88",
+    "bytes": 496
+  }
+}

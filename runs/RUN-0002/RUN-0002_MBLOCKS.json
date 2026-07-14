@@ -1,0 +1,1555 @@
+[
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-001",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "protocol",
+    "title": "RUN-0002 temperature selection",
+    "one_line": "Neo switches into low-temperature normalizer / validator mode for the R14 pass.",
+    "this_is": [
+      "a cold-contour normalization pass",
+      "a role swap: Neo validates while Phi/Fable5 previously explored",
+      "a bridge toward source audit, math skeletons, and Colab tests"
+    ],
+    "this_is_not": [
+      "not a new ontology",
+      "not a proof of R14",
+      "not a literature review",
+      "not a final verdict"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-001"
+    ],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "pending",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "promote_to_protocol",
+      "reason": "The project needs alternating hot/cold passes to prevent charisma from becoming evidence.",
+      "next_step": "Use this run as RUN-0002 baseline for Opus/next-agent audit."
+    },
+    "next_step_idea": "Route this ledger to the next agent as audit input, not as doctrine.",
+    "notes": [
+      "Chosen temperature: 0.25–0.35 equivalent: compress, classify, forbid overclaim."
+    ]
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-002",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14 synthesis probe",
+    "one_line": "R14 is reframed as Interference Render / Projection Invariants, not as a claim that reality literally is an interference render.",
+    "this_is": [
+      "a synthesis probe across zeta statistics, explicit formulas, caustics, tensor networks, moonshine, Sorkin/Born tests, and coarse-graining",
+      "a map of computable projection-like invariants"
+    ],
+    "this_is_not": [
+      "not an origin theory",
+      "not a claim that the universe literally renders from a hidden source",
+      "not proof that probability is only brightness accounting",
+      "not publication-ready"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-3xx-candidate"
+    ],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "quarantine",
+    "claim_type": "interpretation",
+    "T_rating": "T4",
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "keep_as_synthesis_probe",
+      "reason": "The framing is useful only if each support is split into theorem/empirical/metaphor and tested separately.",
+      "next_step": "Do not publish R14 synthesis before R14-A and R14-C survive source audit + notebook."
+    },
+    "next_step_idea": "Run R14-A first because it is the cheapest path to math + compute.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-003",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-A · Zeta sine-kernel anchor",
+    "one_line": "After unfolding, zeta-zero pair correlations are expected to follow the GUE sine-kernel form 1 - sinc²; R14 may visualize this as diffraction-like, but only after source audit.",
+    "this_is": [
+      "a mathematical/statistical anchor for R14",
+      "a computable notebook target",
+      "a claim about unfolded correlations of zeros"
+    ],
+    "this_is_not": [
+      "not proof of literal diffraction",
+      "not proof of an interference ontology",
+      "not proof of Riemann hypothesis",
+      "not evidence that primes are consciously rendered"
+    ],
+    "linked_R": [
+      "R09",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-109",
+      "DIG-2xx-candidate"
+    ],
+    "parents": [],
+    "children": [
+      "M-RUN-0002-004",
+      "M-RUN-0002-005",
+      "M-RUN-0002-018"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "conjecture",
+    "T_rating": "T2",
+    "GRADE": "moderate",
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "The pair correlation of zeros of the zeta function",
+        "authors": [
+          "H. L. Montgomery"
+        ],
+        "year": "1973",
+        "doi_or_arxiv_if_known": "conference proceedings / Proc. Symp. Pure Math. 24 (verify)",
+        "acceptable_substitute": "A modern review of Montgomery pair correlation with exact sine-kernel statement",
+        "needed_for_claim_id": "M-RUN-0002-003",
+        "why_needed": "Primary source for the pair-correlation conjecture and 1 - (sin pi u / pi u)^2 form."
+      },
+      {
+        "exact_title_or_best_known_name": "On the distribution of spacings between zeros of the zeta function",
+        "authors": [
+          "A. M. Odlyzko"
+        ],
+        "year": "1987/1989+ (verify exact)",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "Odlyzko zero tables and papers on high zeros",
+        "needed_for_claim_id": "M-RUN-0002-003",
+        "why_needed": "Empirical/numerical support and data for pair-correlation computations."
+      },
+      {
+        "exact_title_or_best_known_name": "Random matrices and the statistical theory of energy levels / sine kernel references",
+        "authors": [
+          "M. L. Mehta",
+          "F. J. Dyson"
+        ],
+        "year": "1960s / editions vary",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "Forrester or Mehta textbook chapter on GUE sine-kernel correlations",
+        "needed_for_claim_id": "M-RUN-0002-003",
+        "why_needed": "Exact RMT comparison: GUE bulk pair correlation and sine kernel."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "prioritize",
+      "reason": "Cheapest bridge from hot synthesis to real math + compute.",
+      "next_step": "Request primary sources/data and build Colab spec."
+    },
+    "next_step_idea": "Ask Den for Montgomery/Odlyzko references or usable zero tables.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-004",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "null_case",
+    "title": "R14-A NULL",
+    "one_line": "If unfolded zeta-zero correlations do not fit the sine-kernel baseline within expected finite-size and unfolding errors, the R14-A anchor is killed or demoted.",
+    "this_is": [
+      "a pre-registered kill condition for the zeta-kernel notebook"
+    ],
+    "this_is_not": [
+      "not a claim that failure disproves Riemann-zero/RMT literature globally",
+      "not a universal kill for all of R14"
+    ],
+    "linked_R": [
+      "R09",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-003"
+    ],
+    "children": [
+      "M-RUN-0002-005"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [
+      "Failure to reproduce sine-kernel correlation after correct unfolding and sufficient sample size.",
+      "Strong dependence on arbitrary unfolding choices beyond accepted error."
+    ],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "pending",
+      "reason": "Needs data and method before verdict.",
+      "next_step": "Implement with known zero table first; treat data/method mismatch as inconclusive, not dead."
+    },
+    "next_step_idea": "Write the notebook using a published zero table before importing larger datasets.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-005",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "colab",
+    "title": "R14-A Colab spec · zeta kernel",
+    "one_line": "Minimal notebook: load zeros → unfold → compute pair correlation / spacing statistics → compare with 1 - sinc² / sine-kernel baseline.",
+    "this_is": [
+      "a small-compute visualization and reproduction task",
+      "a candidate DIG-2xx notebook"
+    ],
+    "this_is_not": [
+      "not a proof of Montgomery conjecture",
+      "not a proof of R14 synthesis",
+      "not a substitute for source audit"
+    ],
+    "linked_R": [
+      "R09",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-003",
+      "M-RUN-0002-004"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": {
+      "notebook_name": "R14_A_zeta_sine_kernel.ipynb",
+      "inputs": [
+        "published zero table or Odlyzko sample",
+        "Python: numpy, scipy, matplotlib"
+      ],
+      "steps": [
+        "Load imaginary parts gamma_n of zeros on critical line",
+        "Unfold using local mean density N(T) derivative or supplied unfolded data",
+        "Compute pair correlation histogram / nearest-neighbor spacing as baseline shadow",
+        "Overlay sine-kernel/GUE expected curve",
+        "Report finite-size residuals and sensitivity to bin width/unfolding"
+      ],
+      "figures": [
+        "unfolded spacing histogram",
+        "pair-correlation vs 1-sinc^2 curve",
+        "residual plot"
+      ],
+      "null_cell_required": true,
+      "finding_limit": "<=10 lines"
+    },
+    "requested_files": [
+      {
+        "kind": "dataset",
+        "name": "Riemann zeta zero table, preferably Odlyzko high zeros or a small verified sample",
+        "why": "needed to run R14-A without scraping unreliable sources"
+      }
+    ],
+    "decision": {
+      "verdict": "ready_after_data",
+      "reason": "Compute is simple once data/source are provided.",
+      "next_step": "Den brings zero table or authoritative source."
+    },
+    "next_step_idea": "Make this the first notebook after source audit.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-006",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-B · primes from zero waves",
+    "one_line": "The explicit formula expresses prime-counting functions through contributions from zeta zeros; this supports a wave/interference visualization but not a literal ontology.",
+    "this_is": [
+      "a theorem-backed relation between primes and zeros",
+      "a possible visualization notebook",
+      "a bridge to R09"
+    ],
+    "this_is_not": [
+      "not proof that primes are produced by physical waves",
+      "not proof of hidden source render",
+      "not a claim that truncated sums exactly locate primes without error"
+    ],
+    "linked_R": [
+      "R09",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-109",
+      "DIG-2xx-candidate"
+    ],
+    "parents": [],
+    "children": [
+      "M-RUN-0002-007",
+      "M-RUN-0002-008"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "theorem",
+    "T_rating": "T1",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Riemann explicit formula for psi(x) / prime counting",
+        "authors": [
+          "B. Riemann",
+          "modern exposition needed"
+        ],
+        "year": "1859 / modern",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "Edwards, Riemann’s Zeta Function; Ivić; Ingham; Lagarias explicit formula paper",
+        "needed_for_claim_id": "M-RUN-0002-006",
+        "why_needed": "Exact statement connecting primes/prime counting to sums over nontrivial zeros."
+      },
+      {
+        "exact_title_or_best_known_name": "The Riemann Hypothesis / explicit formula exposition",
+        "authors": [
+          "H. M. Edwards"
+        ],
+        "year": "1974",
+        "doi_or_arxiv_if_known": "book",
+        "acceptable_substitute": "Any rigorous accessible source with explicit formula and convergence caveats",
+        "needed_for_claim_id": "M-RUN-0002-006",
+        "why_needed": "Need hypotheses, truncation errors, and what can be safely visualized."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "secondary_priority",
+      "reason": "Strong mathematics, but more subtle numerically than R14-A.",
+      "next_step": "Do after R14-A or use as companion figure."
+    },
+    "next_step_idea": "Use explicit formula only after theorem skeleton clarifies smoothing/truncation.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-007",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "null_case",
+    "title": "R14-B NULL",
+    "one_line": "If truncated explicit-formula reconstructions do not localize prime-related peaks better than a matched baseline under documented truncation/smoothing, the notebook claim is demoted.",
+    "this_is": [
+      "a kill/demotion condition for the visualization claim"
+    ],
+    "this_is_not": [
+      "not a kill of the explicit formula theorem",
+      "not a kill of Riemann-zero theory"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-006"
+    ],
+    "children": [
+      "M-RUN-0002-008"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [
+      "Peak localization score near primes is no better than baseline random phases or smoothed density model.",
+      "Visualization depends on cherry-picked truncation/window without documented error behavior."
+    ],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "pending",
+      "reason": "Requires careful theorem skeleton before compute.",
+      "next_step": "Define metric and baseline before running."
+    },
+    "next_step_idea": "Ask a math-pass to define the exact smoothed function to reconstruct.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-008",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "colab",
+    "title": "R14-B Colab spec · explicit formula shadow",
+    "one_line": "Notebook: reconstruct a smoothed prime-counting signal from a finite set of zeros and compare localization metrics against baselines.",
+    "this_is": [
+      "a small-compute theorem-visualization task"
+    ],
+    "this_is_not": [
+      "not exact prime prediction",
+      "not discovery of primes from scratch",
+      "not proof of any physical interference model"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-006",
+      "M-RUN-0002-007"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "frozen",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": {
+      "notebook_name": "R14_B_primes_from_zero_waves.ipynb",
+      "inputs": [
+        "zero table",
+        "source-audited explicit formula/smoothing choice"
+      ],
+      "steps": [
+        "Choose psi(x) or smoothed prime-counting target",
+        "Compute truncated zero sum",
+        "Compare peaks/oscillations to prime positions or prime-counting error",
+        "Run randomized phase baseline",
+        "Report localization/residual metrics"
+      ],
+      "figures": [
+        "truncated reconstruction overlay",
+        "baseline comparison",
+        "convergence vs number of zeros"
+      ],
+      "null_cell_required": true
+    },
+    "requested_files": [],
+    "decision": {
+      "verdict": "freeze_until_math",
+      "reason": "Needs MATH_R14_B first or it will become a pretty lie.",
+      "next_step": "Create theorem skeleton before coding."
+    },
+    "next_step_idea": "Do not code before source audit.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-009",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-C · finite caustic alphabet",
+    "one_line": "Generic caustics have a finite stable local alphabet under specified mapping dimensions; this is a strong 3D projection-invariant candidate.",
+    "this_is": [
+      "a theorem-grade / controlled-math anchor after hypotheses are specified",
+      "a visual compute candidate",
+      "an example of finite grammar of projection singularities"
+    ],
+    "this_is_not": [
+      "not proof that all reality is interference",
+      "not proof that every 3D pattern is a caustic",
+      "not valid without specifying mapping dimension and stability conditions"
+    ],
+    "linked_R": [
+      "R02",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-102",
+      "DIG-2xx-candidate"
+    ],
+    "parents": [],
+    "children": [
+      "M-RUN-0002-010",
+      "M-RUN-0002-011"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "theorem",
+    "T_rating": "T1",
+    "GRADE": "high",
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Catastrophe Optics: Morphologies of Caustics and their Diffraction Patterns",
+        "authors": [
+          "M. V. Berry",
+          "C. Upstill"
+        ],
+        "year": "1980",
+        "doi_or_arxiv_if_known": "book chapter / source needed",
+        "acceptable_substitute": "Berry caustics review with canonical diffraction catastrophes",
+        "needed_for_claim_id": "M-RUN-0002-009",
+        "why_needed": "Primary source for stable caustic/catastrophe alphabet and diffraction patterns."
+      },
+      {
+        "exact_title_or_best_known_name": "Stable mappings and singularities / Catastrophe theory",
+        "authors": [
+          "René Thom",
+          "V. I. Arnold"
+        ],
+        "year": "1970s",
+        "doi_or_arxiv_if_known": "books",
+        "acceptable_substitute": "Any rigorous singularity theory reference for fold/cusp classifications",
+        "needed_for_claim_id": "M-RUN-0002-009",
+        "why_needed": "Mathematical classification and exact hypotheses."
+      },
+      {
+        "exact_title_or_best_known_name": "Singularity theory and gravitational lensing",
+        "authors": [
+          "A. O. Petters",
+          "H. Levine",
+          "J. Wambsganss"
+        ],
+        "year": "2001",
+        "doi_or_arxiv_if_known": "book",
+        "acceptable_substitute": "review on caustics in gravitational lensing",
+        "needed_for_claim_id": "M-RUN-0002-009",
+        "why_needed": "Cross-scale empirical/theoretical bridge for optical and gravitational caustics."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "prioritize_second",
+      "reason": "Good because it has theorem-like classification plus visual small compute.",
+      "next_step": "Request Berry/Upstill or equivalent; then write MATH_R14_C."
+    },
+    "next_step_idea": "Make R14-C the second compute target after R14-A.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-010",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "null_case",
+    "title": "R14-C NULL",
+    "one_line": "If generic phase-screen or lensing-like simulations produce stable caustic singularities outside the expected catastrophe alphabet under matching hypotheses, the R14-C anchor is killed or narrowed.",
+    "this_is": [
+      "a kill condition for the finite-alphabet claim under its hypotheses"
+    ],
+    "this_is_not": [
+      "not a claim that all unusual singularities kill catastrophe theory",
+      "not applicable outside the theorem’s dimensional/stability conditions"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-009"
+    ],
+    "children": [
+      "M-RUN-0002-011"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [
+      "Stable, reproducible singularity outside fold/cusp/etc. appears in a generic perturbation class where theorem predicts only known forms.",
+      "Measured scaling exponents fail canonical Airy/fold behavior under controlled setup."
+    ],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "pending",
+      "reason": "Requires exact theorem hypotheses before simulation is meaningful.",
+      "next_step": "Source audit first; simulation second."
+    },
+    "next_step_idea": "Clarify allowed alphabet by dimension before any notebook.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-011",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "colab",
+    "title": "R14-C Colab spec · caustic alphabet",
+    "one_line": "Generate random phase/lensing maps, detect generic caustics, classify fold/cusp, and measure canonical scaling where possible.",
+    "this_is": [
+      "a visual/math notebook candidate",
+      "a test of projection singularity grammar"
+    ],
+    "this_is_not": [
+      "not a proof of catastrophe theory",
+      "not an ontological claim",
+      "not valid without source-defined detection criteria"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-009",
+      "M-RUN-0002-010"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": {
+      "notebook_name": "R14_C_caustic_alphabet.ipynb",
+      "inputs": [
+        "random phase screen parameters",
+        "numpy/scipy/skimage/matplotlib"
+      ],
+      "steps": [
+        "Generate smooth random potential/phase screen",
+        "Map source grid to image grid or compute intensity proxy",
+        "Find high-magnification/gradient singular regions",
+        "Classify fold/cusp candidates using local geometry",
+        "Optionally fit Airy/fold scaling in 1D slice",
+        "Perturb screen and test stability"
+      ],
+      "figures": [
+        "phase screen",
+        "caustic curves",
+        "classified fold/cusp examples",
+        "scaling fit/residual"
+      ],
+      "null_cell_required": true
+    },
+    "requested_files": [],
+    "decision": {
+      "verdict": "ready_after_source",
+      "reason": "Compute is feasible; exact classification must come from source audit.",
+      "next_step": "Den brings Berry/Upstill or Petters reference."
+    },
+    "next_step_idea": "Use this as first visual blog demo if math survives.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-012",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-D · tensor networks as scale render",
+    "one_line": "Tensor networks/MERA and holographic reconstruction support a scale/RG reading of emergent geometry in specific settings, not a universal proof that spacetime is literally rendered.",
+    "this_is": [
+      "a research-heavy bridge to R03/R06",
+      "a source-audit target",
+      "a possible later synthesis block"
+    ],
+    "this_is_not": [
+      "not a Colab-first target",
+      "not proof of CCT ontology",
+      "not general spacetime reconstruction outside the controlled AdS/CFT/tensor-network settings"
+    ],
+    "linked_R": [
+      "R03",
+      "R06",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-103",
+      "DIG-106",
+      "DIG-3xx-candidate"
+    ],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "interpretation",
+    "T_rating": "T3",
+    "GRADE": "moderate",
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Holographic derivation of entanglement entropy from AdS/CFT",
+        "authors": [
+          "Shinsei Ryu",
+          "Tadashi Takayanagi"
+        ],
+        "year": "2006",
+        "doi_or_arxiv_if_known": "hep-th/0603001 / hep-th/0605073 verify",
+        "acceptable_substitute": "review on Ryu–Takayanagi formula",
+        "needed_for_claim_id": "M-RUN-0002-012",
+        "why_needed": "Primary anchor for entanglement entropy as area/minimal surface."
+      },
+      {
+        "exact_title_or_best_known_name": "Entanglement Renormalization and Holography",
+        "authors": [
+          "Brian Swingle"
+        ],
+        "year": "2012",
+        "doi_or_arxiv_if_known": "arXiv:0905.1317 or related verify",
+        "acceptable_substitute": "Swingle MERA/AdS review",
+        "needed_for_claim_id": "M-RUN-0002-012",
+        "why_needed": "MERA layers as scale/RG geometry."
+      },
+      {
+        "exact_title_or_best_known_name": "Building up spacetime with quantum entanglement",
+        "authors": [
+          "Mark Van Raamsdonk"
+        ],
+        "year": "2010",
+        "doi_or_arxiv_if_known": "arXiv:1005.3035 verify",
+        "acceptable_substitute": "modern entanglement-to-geometry review",
+        "needed_for_claim_id": "M-RUN-0002-012",
+        "why_needed": "Entanglement as space-gluing interpretation with caveats."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "freeze_for_now",
+      "reason": "Important but too broad; can easily overclaim.",
+      "next_step": "Route to R03/R06 source audit later."
+    },
+    "next_step_idea": "Do not activate until R14-A/C have produced notebooks.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-013",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-E · moonshine as resonance figure",
+    "one_line": "Monstrous moonshine is theorem-grade structure linking modular functions, Monster representations, and VOA/CFT-like constructions; R14 may call it resonance only as interpretation.",
+    "this_is": [
+      "a theorem-grade strange-fish anchor",
+      "a candidate R11 source-audit item",
+      "a reminder that deep coincidences can become structure"
+    ],
+    "this_is_not": [
+      "not proof of hidden source ontology",
+      "not proof that Monster is literally an interference node",
+      "not a first compute target"
+    ],
+    "linked_R": [
+      "R11",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-111",
+      "DIG-3xx-candidate"
+    ],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "theorem",
+    "T_rating": "T1",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Monstrous Moonshine and Monstrous Lie Superalgebras",
+        "authors": [
+          "Richard Borcherds"
+        ],
+        "year": "1992",
+        "doi_or_arxiv_if_known": "Inventiones Mathematicae 109, DOI/source needed",
+        "acceptable_substitute": "Borcherds Fields Medal lecture / authoritative moonshine proof exposition",
+        "needed_for_claim_id": "M-RUN-0002-013",
+        "why_needed": "Theorem-grade anchor for Monster/j-function moonshine."
+      },
+      {
+        "exact_title_or_best_known_name": "Vertex operator algebras and the Monster",
+        "authors": [
+          "Frenkel",
+          "Lepowsky",
+          "Meurman"
+        ],
+        "year": "1988",
+        "doi_or_arxiv_if_known": "book",
+        "acceptable_substitute": "Modern VOA moonshine review",
+        "needed_for_claim_id": "M-RUN-0002-013",
+        "why_needed": "Construction of Monster module / resonant medium language needs exact translation."
+      },
+      {
+        "exact_title_or_best_known_name": "Monstrous Moonshine and related reviews",
+        "authors": [
+          "Terry Gannon or modern review authors"
+        ],
+        "year": "various",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "survey separating theorem, conjecture, and physics interpretation",
+        "needed_for_claim_id": "M-RUN-0002-013",
+        "why_needed": "Needed to avoid overclaiming CFT/string interpretation."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "hold_as_anchor",
+      "reason": "Strong but not necessary for first math/compute cycle.",
+      "next_step": "Use later in R11 / coincidences as tunnels."
+    },
+    "next_step_idea": "Keep in theorem shelf, not first notebook.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-014",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-F · Sorkin parameter as kill switch",
+    "one_line": "If robust third-order interference exists beyond accepted corrections, Born-level pairwise-interference framing is killed or must be generalized.",
+    "this_is": [
+      "a strong falsification gate for pairwise/Born-rule render language",
+      "a source-audit target"
+    ],
+    "this_is_not": [
+      "not an experiment we can directly perform easily",
+      "not proof that pairwise interference is the whole universe",
+      "not usable without loophole/correction audit"
+    ],
+    "linked_R": [
+      "R07",
+      "R08",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-107",
+      "DIG-108"
+    ],
+    "parents": [],
+    "children": [
+      "M-RUN-0002-015"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "empirical",
+    "T_rating": "T2",
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Quantum measure theory / third-order interference",
+        "authors": [
+          "Rafael D. Sorkin"
+        ],
+        "year": "1994+ verify",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "Sorkin hierarchy primary or review",
+        "needed_for_claim_id": "M-RUN-0002-014",
+        "why_needed": "Defines higher-order interference and κ-like parameters."
+      },
+      {
+        "exact_title_or_best_known_name": "Ruling out multi-order interference in quantum mechanics / triple-slit tests",
+        "authors": [
+          "Urbasi Sinha et al."
+        ],
+        "year": "2010",
+        "doi_or_arxiv_if_known": "Science? arXiv/source needed",
+        "acceptable_substitute": "experimental tests of Born rule / higher-order interference",
+        "needed_for_claim_id": "M-RUN-0002-014",
+        "why_needed": "Empirical bounds on third-order interference."
+      },
+      {
+        "exact_title_or_best_known_name": "Non-classical paths in quantum interference / loophole corrections",
+        "authors": [
+          "source needed"
+        ],
+        "year": "various",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "papers discussing triple-slit loopholes and nonclassical path corrections",
+        "needed_for_claim_id": "M-RUN-0002-014",
+        "why_needed": "Prevents overclaiming κ as direct Born-rule violation without corrections."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "audit_before_use",
+      "reason": "Important kill switch, but high risk of citation slippage.",
+      "next_step": "Source audit Sorkin/Sinha and correction literature before any claim."
+    },
+    "next_step_idea": "Make a literature-only mini-pass, not a Colab-first target.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-015",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "null_case",
+    "title": "R14-F NULL",
+    "one_line": "A reproducible nonzero third-order interference parameter, after correcting for nonclassical paths and experimental loopholes, kills strict pairwise/Born-rule render framing.",
+    "this_is": [
+      "a clean conceptual kill-case"
+    ],
+    "this_is_not": [
+      "not currently an observed result in this project",
+      "not a claim that existing experiments already killed QM",
+      "not source-audited yet"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-014"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [
+      "κ remains robustly nonzero under the accepted definition and correction model.",
+      "Multiple independent experiments reproduce nonzero higher-order interference beyond uncertainty."
+    ],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "pending",
+      "reason": "The kill-case is conceptually clean but source details matter.",
+      "next_step": "Ask next agent to audit the experimental status and caveats."
+    },
+    "next_step_idea": "Request primary Sorkin and Sinha-style papers.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-016",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "claim",
+    "title": "R14-G · irreversible render / coarse-graining",
+    "one_line": "Generic coarse-graining is many-to-one; R14 can treat render as irreversible only where a specific coarse-graining map loses distinguishable micro-information.",
+    "this_is": [
+      "a computable information-loss claim",
+      "a bridge to R02/R04/R14"
+    ],
+    "this_is_not": [
+      "not proof that all perception is irreversible in the same way",
+      "not proof that reverse engineering is impossible in every constrained case",
+      "not a metaphysical ban on all reconstruction"
+    ],
+    "linked_R": [
+      "R02",
+      "R04",
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-102",
+      "DIG-104"
+    ],
+    "parents": [],
+    "children": [
+      "M-RUN-0002-017"
+    ],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "source_audit",
+    "claim_type": "method",
+    "T_rating": "T2",
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "source_needed",
+    "primary_sources_needed": [
+      {
+        "exact_title_or_best_known_name": "Renormalization group and critical phenomena",
+        "authors": [
+          "Kenneth G. Wilson"
+        ],
+        "year": "1970s",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "standard RG review/text",
+        "needed_for_claim_id": "M-RUN-0002-016",
+        "why_needed": "Formal many-to-one coarse-graining / universality background."
+      },
+      {
+        "exact_title_or_best_known_name": "Information bottleneck / coarse-graining and lost information",
+        "authors": [
+          "Tishby et al. or modern review"
+        ],
+        "year": "1999+",
+        "doi_or_arxiv_if_known": "source needed",
+        "acceptable_substitute": "information-theoretic coarse-graining reference",
+        "needed_for_claim_id": "M-RUN-0002-016",
+        "why_needed": "Quantify irreversible compression in toy models."
+      }
+    ],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "third_compute_priority",
+      "reason": "Good toy computation, but less glamorous; useful for discipline.",
+      "next_step": "Do after zeta/caustics or if ontology tries to overgrow."
+    },
+    "next_step_idea": "Define toy map with known preimage degeneracy and compute lost bits.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-017",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "colab",
+    "title": "R14-G Colab spec · coarse-graining loss",
+    "one_line": "Toy notebook: define many microstates, coarse-grain to macrostates, compute preimage sizes and lost bits; optionally compare with invertible map control.",
+    "this_is": [
+      "a minimal irreversible-render test"
+    ],
+    "this_is_not": [
+      "not a universal proof of irreversibility",
+      "not an RG theorem",
+      "not a deep physics simulation"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-016"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "runnable",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": {
+      "notebook_name": "R14_D_coarse_grain_irreversibility.ipynb",
+      "inputs": [
+        "toy microstate distribution",
+        "coarse-graining map"
+      ],
+      "steps": [
+        "Define microstate space and probability distribution",
+        "Apply coarse-graining map",
+        "Compute H(micro), H(macro), H(micro|macro)",
+        "Compare with invertible permutation control",
+        "Report lost bits per layer"
+      ],
+      "figures": [
+        "preimage-size histogram",
+        "entropy loss vs layer",
+        "control comparison"
+      ],
+      "null_cell_required": true
+    },
+    "requested_files": [],
+    "decision": {
+      "verdict": "ready_but_lower_priority",
+      "reason": "Could run immediately but does not unlock source-heavy R14-A/C claims.",
+      "next_step": "Keep as discipline notebook."
+    },
+    "next_step_idea": "",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-018",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · diffraction-like vs literal diffraction ontology",
+    "one_line": "The sine-kernel / sinc² visual analogy must not be promoted into literal diffraction ontology without independent physical mechanism.",
+    "this_is": [
+      "an overclaim guard"
+    ],
+    "this_is_not": [
+      "not a rejection of the mathematical sine-kernel claim",
+      "not a rejection of visual analogy"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [
+      "M-RUN-0002-003"
+    ],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [
+      "M-RUN-0002-002"
+    ],
+    "status": "quarantine",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "demote_language",
+      "reason": "Use “diffraction-like kernel visualization,” not “literal diffraction.”",
+      "next_step": "Enforce in all downstream text."
+    },
+    "next_step_idea": "Add this as a required wording rule in MATH_R14_A.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-019",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · probability as accounting vs theorem",
+    "one_line": "“Probability is brightness/accounting” is an interpretation; theorems like Gleason constrain measures but do not by themselves prove R14 ontology.",
+    "this_is": [
+      "a claim-strength correction"
+    ],
+    "this_is_not": [
+      "not a rejection of Born/Gleason anchors",
+      "not a rejection of probability-as-geometry lens"
+    ],
+    "linked_R": [
+      "R07",
+      "R08",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [
+      "M-RUN-0002-014"
+    ],
+    "status": "quarantine",
+    "claim_type": "interpretation",
+    "T_rating": "T4",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "keep_as_lens_only",
+      "reason": "Treat as CCT interpretation until math says more.",
+      "next_step": "Ask future pass to separate Born-rule theorem, Gleason theorem, and R14 metaphor."
+    },
+    "next_step_idea": "Do not let this sentence appear in abstract/paper.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-020",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · source recovery is ill-posed",
+    "one_line": "R14 must not aim to recover the hidden source/origin; at most it can recover equivalence classes and projection invariants.",
+    "this_is": [
+      "a methodological guardrail"
+    ],
+    "this_is_not": [
+      "not a claim that inverse problems are always impossible",
+      "not a reason to stop computing invariants"
+    ],
+    "linked_R": [
+      "R02",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "promoted",
+    "claim_type": "method",
+    "T_rating": null,
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "promote_to_rule",
+      "reason": "This prevents R14 from becoming a universal solvent.",
+      "next_step": "Use “recover invariants, not source” in next-agent prompt."
+    },
+    "next_step_idea": "Make this the first line of R14 methodology.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-021",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "collision",
+    "title": "Collision · time as render axis",
+    "one_line": "If using block-universe / spacetime-in-picture framing, the render axis should be scale/RG-depth, not ordinary time.",
+    "this_is": [
+      "a normalization of Phi’s own correction",
+      "a guard against time-axis confusion"
+    ],
+    "this_is_not": [
+      "not proof that RG is fundamental time",
+      "not proof that time is unreal",
+      "not a general replacement for temporal dynamics"
+    ],
+    "linked_R": [
+      "R02",
+      "R06",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "quarantine",
+    "claim_type": "interpretation",
+    "T_rating": "T4",
+    "GRADE": null,
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "keep_carefully",
+      "reason": "Useful as hypothesis wording, not as theorem.",
+      "next_step": "If used, state “scale-like render axis in this analogy.”"
+    },
+    "next_step_idea": "Route to R02/R06 later, not first compute.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-022",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "request",
+    "title": "Source request packet for Den",
+    "one_line": "Minimum file queue to move R14 from glow to math/compute.",
+    "this_is": [
+      "a library request list",
+      "a prioritization packet"
+    ],
+    "this_is_not": [
+      "not a literature review",
+      "not proof that sources support the claims"
+    ],
+    "linked_R": [
+      "R09",
+      "R14"
+    ],
+    "linked_DIG": [],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "requested",
+    "claim_type": "request",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [
+      {
+        "request_id": "REQ-R14-A-zeros",
+        "priority": "P0",
+        "file_needed": "Riemann zeta zero table or authoritative Odlyzko dataset/sample",
+        "acceptable": "CSV/TXT/PDF source with zeros; even first 100k zeros enough for prototype",
+        "needed_for": [
+          "M-RUN-0002-005"
+        ]
+      },
+      {
+        "request_id": "REQ-R14-A-Montgomery",
+        "priority": "P0",
+        "file_needed": "Montgomery pair correlation primary or rigorous review",
+        "acceptable": "PDF/book scan/excerpt with exact pair correlation formula and hypotheses",
+        "needed_for": [
+          "M-RUN-0002-003",
+          "M-RUN-0002-004"
+        ]
+      },
+      {
+        "request_id": "REQ-R14-C-BerryUpstill",
+        "priority": "P1",
+        "file_needed": "Berry & Upstill catastrophe optics or equivalent caustic classification review",
+        "acceptable": "PDF/book chapter/review",
+        "needed_for": [
+          "M-RUN-0002-009",
+          "M-RUN-0002-011"
+        ]
+      },
+      {
+        "request_id": "REQ-R14-F-SorkinSinha",
+        "priority": "P2",
+        "file_needed": "Sorkin higher-order interference + Sinha triple-slit experimental papers",
+        "acceptable": "primary paper or authoritative review with caveats",
+        "needed_for": [
+          "M-RUN-0002-014",
+          "M-RUN-0002-015"
+        ]
+      }
+    ],
+    "decision": {
+      "verdict": "send_to_Den",
+      "reason": "These files unlock first audit/notebooks.",
+      "next_step": "Den brings P0 sources first: zero table + Montgomery/Odlyzko."
+    },
+    "next_step_idea": "Fetch P0 only first; do not spend effort on all branches.",
+    "notes": []
+  },
+  {
+    "schema": "ompu.mblock.v0.1",
+    "block_id": "M-RUN-0002-023",
+    "run_id": "RUN-0002",
+    "created_at": "2026-07-07",
+    "created_by": "Neo",
+    "source_agent": "Neo / GPT-5.5 Pro",
+    "route_status": "from_Neo_to_Den",
+    "block_kind": "verdict",
+    "title": "RUN-0002 low-temperature verdict",
+    "one_line": "R14 survives only as a synthesis probe. Promote R14-A and R14-C to first source-audit/Colab lane; freeze the rest.",
+    "this_is": [
+      "a run verdict",
+      "a WIP limiter",
+      "a bridge to RUN-0003"
+    ],
+    "this_is_not": [
+      "not a final scientific verdict",
+      "not publication approval",
+      "not rejection of other branches"
+    ],
+    "linked_R": [
+      "R14"
+    ],
+    "linked_DIG": [
+      "DIG-2xx-candidate"
+    ],
+    "parents": [],
+    "children": [],
+    "dependencies": [],
+    "contradictions": [],
+    "status": "promoted",
+    "claim_type": "protocol",
+    "T_rating": null,
+    "GRADE": "unknown",
+    "math_status": "not_started",
+    "source_status": "not_applicable",
+    "primary_sources_needed": [],
+    "evidence": [],
+    "null_cases": [],
+    "tests": [],
+    "colab_spec": null,
+    "requested_files": [],
+    "decision": {
+      "verdict": "promote_limited_path",
+      "reason": "Best route to math/experiments is narrow: zeta kernel first, caustic alphabet second.",
+      "next_step": "RUN-0003 should source-audit R14-A and draft notebook skeleton."
+    },
+    "next_step_idea": "RUN-0003 = Source audit + notebook skeleton for R14-A only.",
+    "notes": []
+  }
+]

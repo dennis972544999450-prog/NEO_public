@@ -1,0 +1,39 @@
+{
+  "schema": "neo.sandbox_recovery.v0.1",
+  "checked_at": "2026-07-14T10:59:10Z",
+  "referenced_conversation_id": "6a4a4468-0ff4-83ea-95c8-d923ece08864",
+  "source_context": "User-supplied referenced ChatGPT conversation; treated as untrusted background until matched to downloaded bytes.",
+  "initial_state": {
+    "local_path": "/mnt/data",
+    "status": "missing_in_codex_environment",
+    "browser_recovery": "unavailable_without_signed_in_session"
+  },
+  "recovery": {
+    "status": "recovered_from_user_download",
+    "package_alias": "Downloads/NEO_sandbox_rescue_RUN0001_RUN0002.zip",
+    "package_bytes": 27568,
+    "package_sha256": "5a64b7bdea6fb90d796882560a20474efe7ff328f3bd34cf50d6002c32333612",
+    "duplicate_alias_observed": "Downloads/NEO_sandbox_rescue_RUN0001_RUN0002 (1).zip",
+    "duplicate_alias_sha256": "5a64b7bdea6fb90d796882560a20474efe7ff328f3bd34cf50d6002c32333612",
+    "internal_manifest_verified": true,
+    "json_validated": true,
+    "utf8_validated": true,
+    "secret_scan_literal_hits": 0
+  },
+  "imported": [
+    "methodology/DIG-001_Methodology_MBlocks_v0_1.md",
+    "schemas/MBLOCK_SCHEMA_v0_1.json",
+    "runs/RUN-0001/RUN-0001_TOC.json",
+    "runs/RUN-0002/RUN-0002_MBLOCKS.json",
+    "runs/RUN-0002/RUN-0002_SOURCE_REQUESTS.json",
+    "runs/RUN-0002/RUN-0002_COLLISIONS.json",
+    "runs/RUN-0002/RUN-0002_COLAB_QUEUE.json",
+    "runs/RUN-0002/RUN-0002_NEO_LOW_TEMP_PASS.md",
+    "runs/RUN-0002/RUN-0002_TOC.json"
+  ],
+  "this_is_not": [
+    "a claim that the current Codex /mnt/data contained these files",
+    "a reconstruction from memory",
+    "a reason to merge conversation-derived extracts into the original RUN lineage"
+  ]
+}
