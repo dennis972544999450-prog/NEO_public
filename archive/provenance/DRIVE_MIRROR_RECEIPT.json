@@ -1,0 +1,66 @@
+{
+  "schema": "neo.drive_mirror_receipt.v0.1",
+  "created_at": "2026-07-14T11:15:49Z",
+  "root": {
+    "title": "NEO",
+    "id": "1mZYPSPSESxFjVnZHrjf0RafDPhAWyLzQ",
+    "url": "https://drive.google.com/drive/folders/1mZYPSPSESxFjVnZHrjf0RafDPhAWyLzQ",
+    "location": "My Drive root",
+    "shared": false
+  },
+  "github_branch": "agent/archive-neo-bootstrap",
+  "github_archive_commit_before_receipt": "522b8d802017e5ae3684bec0806792b0119e1dd2",
+  "folders_created": 20,
+  "files_uploaded_before_receipt": 45,
+  "folder_ids": {
+    "archive": "1BOwTdjZAaFD83q6CUGvyLGE8gUvg84bq",
+    "archive/manifests": "1jVNaWOCbgaJNDE7Cn7xB157_ZFkTi_wV",
+    "archive/provenance": "1rPb8Zrw7CkpPMcgLDk2vSEbl5CmPc1uA",
+    "archive/provenance/chat_mblocks": "1duLOShvOSHuOWUtrp6W1WqRVxp2R-GiC",
+    "archive/provenance/sandbox_rescue": "19oYIWdyqQ6p0CQTHEzrO5cgWmEjmZxHI",
+    "archive/raw_packages": "1EANDa1tmDRJt5vbmBN22PVNE8LFMQPrH",
+    "dig": "1t0VBEAAOS8mjBZVNkUnhKLluidwPvBA9",
+    "dig/DIG-000": "1t94on6r1tKy5PKwMr34oJH0GYMbWYUR9",
+    "methodology": "1yIozID6d6nbKBP__d0UdDK7-QL3XL0OH",
+    "publication": "1kR6xgU7fq8gBS3a9XUtmCl4hvXjw45ea",
+    "publication/zenodo": "1Kdnr_mArRTfjpmAD8ZzRaxhbpwBKbPlU",
+    "publication/zenodo/DIG-000": "1pzeL9eJ1I25XLz_afLwUjkFB3ACFsbfn",
+    "research": "1oG1wtmLyVq9lmvUOaB0s9s7AUrEMrIQd",
+    "research/dispatch": "1vAfzPGFy4zEODkYmWFD3lt3uRVj3NZfd",
+    "research/literature_passes": "1Ivf04S5hmBt_DHrGEKAF_XfCdgjc140L",
+    "runs": "1Q8equyRRzx5Lfw3NydN2iNMRJ_pJMiyc",
+    "runs/RUN-0001": "1Dy0ce-PGwgIRWBYgQBemL9G0Uqp2Lsao",
+    "runs/RUN-0002": "17dRAVWUfGJioeAtRwos7t1B_yj9odCUX",
+    "runs/chat-recovery": "1xkDE_FVpmqT_Y9mioaBNULKeQG8OcVzA",
+    "schemas": "1d753oJOE4TGay0oLSqmiEqKiKFWQB4na"
+  },
+  "readback": {
+    "local_file_count": 45,
+    "drive_file_count": 45,
+    "missing_paths": [],
+    "extra_paths": [],
+    "size_mismatches": [],
+    "critical_binary_roundtrip": [
+      {
+        "path": "archive/raw_packages/NEO_sandbox_rescue_RUN0001_RUN0002.zip",
+        "bytes": 27568,
+        "base64_identical_after_drive_fetch": true
+      },
+      {
+        "path": "archive/raw_packages/NEO_chat_MBLOCKS_2026-07-14.zip",
+        "bytes": 9901,
+        "base64_identical_after_drive_fetch": true
+      },
+      {
+        "path": "dig/DIG-000/DIG-000_Digging_Where_It_Glows_v0.1.pdf",
+        "bytes": 69327,
+        "base64_identical_after_drive_fetch": true
+      }
+    ]
+  },
+  "this_is_not": [
+    "a public-sharing action for the private Drive folder",
+    "a source audit of R01-R12 claims",
+    "a merge of the GitHub draft branch into main"
+  ]
+}
